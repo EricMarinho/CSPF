@@ -10,8 +10,9 @@ public class Stage1Tutorial : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Dialogue dialogue;
-    private Queue<string> sentences;
+    public Queue<string> sentences;
     public GameObject dialogueBox;
+    bool isEnding = false;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,15 @@ public class Stage1Tutorial : MonoBehaviour
         dialogueBox.SetActive(true);
         sentences = new Queue<string>();
         StartDialogue(dialogue);
+    }
+
+    void Update(){
+
+        if(isEnding == true){
+            if(Input.anyKeyDown){
+                EndDialogue();
+            }
+        }
     }
 
     public void StartDialogue(Dialogue dialogue){
@@ -39,18 +49,17 @@ public class Stage1Tutorial : MonoBehaviour
 
     public void DisplayNextSentence(){
 
-        if(sentences.Count==0){
-            EndDialogue();
-            return;
+        if(sentences.Count==1){
+            isEnding = true;
         }
 
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;         
-
+        
     }
 
     public void EndDialogue(){
-        animator.SetBool("isEnd", true);
+        animator.SetBool("isOpen", false);
     }
 
 }

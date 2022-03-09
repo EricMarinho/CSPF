@@ -7,14 +7,19 @@ using UnityEngine.EventSystems;
 public class TutorialCardsScript : MonoBehaviour, IPointerClickHandler
 {
     Stage1Tutorial nextSentence;
-
+    DrawManager draw;
+    
     void Start(){
     nextSentence = FindObjectOfType<Stage1Tutorial>();
+    draw = FindObjectOfType<DrawManager>();
     }
 
    
     public void OnPointerClick(PointerEventData eventData){
-        nextSentence.DisplayNextSentence();      
+        if(nextSentence.sentences.Count == 1){
+            nextSentence.DisplayNextSentence();
+        }
+        draw.Draw();      
         Destroy(gameObject);
     }
 

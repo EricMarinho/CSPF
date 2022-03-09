@@ -434,15 +434,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7642b295d5fa244bc5f68a1836e847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 355151511}
   nameText: {fileID: 801197052}
   dialogueText: {fileID: 1626696049}
   dialogue:
     name: Alfredo
     sentences:
     - Primeiro, selecione uma carta para usar.
-    - "Parab\xE9ns, voc\xEA \xE9 um trouxa"
-    - AAA
+    - "Parab\xE9ns, voc\xEA conseguiu"
   dialogueBox: {fileID: 355151509}
 --- !u!1 &1626696047
 GameObject:
