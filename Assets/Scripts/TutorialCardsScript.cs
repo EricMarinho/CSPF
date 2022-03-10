@@ -16,9 +16,7 @@ public class TutorialCardsScript : MonoBehaviour, IPointerClickHandler
 
    
     public void OnPointerClick(PointerEventData eventData){
-        if(nextSentence.sentences.Count == 1){
-            nextSentence.DisplayNextSentence();
-        }
+        nextSentence.DisplayNextSentence();
         draw.Draw();      
         Destroy(gameObject);
     }

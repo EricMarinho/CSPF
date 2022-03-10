@@ -441,7 +441,8 @@ MonoBehaviour:
     name: Alfredo
     sentences:
     - Primeiro, selecione uma carta para usar.
-    - "Parab\xE9ns, voc\xEA conseguiu"
+    - "Parab\xE9ns, voc\xEA conseguiu. Agora escolha a carta com 3 lados."
+    - AAAA lapada da boa, safaaaaaaaaaaada
   dialogueBox: {fileID: 355151509}
 --- !u!1 &1626696047
 GameObject:
@@ -477,8 +478,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 95.653, y: -205.22595}
-  m_SizeDelta: {x: 1246.3859, y: 447.65}
+  m_AnchoredPosition: {x: 3.8039, y: -205.22595}
+  m_SizeDelta: {x: 1062.6876, y: 447.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1626696049
 MonoBehaviour:

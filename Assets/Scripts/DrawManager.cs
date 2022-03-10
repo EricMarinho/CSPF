@@ -36,7 +36,7 @@ public class DrawManager : MonoBehaviour
     }
 
     IEnumerator setarMao(){
-        for(var i = 0; i < 3; i++){
+        for(var i = 0; i < 4; i++){
             yield return new WaitForSeconds(1);
             Draw();
         }
