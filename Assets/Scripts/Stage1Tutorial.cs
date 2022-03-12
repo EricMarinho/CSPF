@@ -14,12 +14,14 @@ public class Stage1Tutorial : MonoBehaviour
     public GameObject dialogueBox;
     bool isEnding = false;
 
+
     // Start is called before the first frame update
     void Start()
     {
         dialogueBox.SetActive(true);
         sentences = new Queue<string>();
-        StartDialogue(dialogue);
+        StartDialogue(dialogue); 
+
     }
 
     void Update(){

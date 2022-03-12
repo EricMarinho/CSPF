@@ -7,7 +7,7 @@ public class SuccessTest : MonoBehaviour
     public struct AnswerVerification
      {
         public int answer;
-        public string typeOf;
+        public string type;
      }
 
     public Queue<AnswerVerification> answerQueue;

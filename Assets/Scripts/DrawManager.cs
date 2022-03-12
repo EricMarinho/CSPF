@@ -5,18 +5,23 @@ using UnityEngine;
 public class DrawManager : MonoBehaviour
 {
 
-    public GameObject carta1;
-    public GameObject carta2;
     public GameObject handManager;
 
-    List<GameObject> cards = new List<GameObject>();
+    //    public struct cardsStruct
+    //  {
+    //     public float calculo;
+    //     public string type;
+    //     public GameObject cardObject;
+    //  }
+
+    // List<cardsStruct> cardsList = new List<cardsStruct>();
     
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(setarMao());
-        cards.Add(carta1);
-        cards.Add(carta2);
+        // cardsList.Add();
+        // cardsList.Add();
         
     }
 
@@ -30,8 +35,8 @@ public class DrawManager : MonoBehaviour
 
     public void Draw(){
 
-        GameObject carta = Instantiate(cards[Random.Range(0, cards.Count)], new Vector3(0,0,0),Quaternion.identity);
-        carta.transform.SetParent(handManager.transform, false);
+        // GameObject carta = Instantiate(cardsList[Random.Range(0, cardsList.Count)], new Vector3(0,0,0),Quaternion.identity);
+        // carta.transform.SetParent(handManager.transform, false);
 
     }
 
