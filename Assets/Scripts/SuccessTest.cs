@@ -18,8 +18,5 @@ public class SuccessTest : MonoBehaviour
         answerFiller.answer = 4;
         answerQueue.Enqueue(answerFiller);
     }
-    void Update()
-    {
-     Debug.Log(answerQueue.ToArray()[0].answer);  
-    }
+
 }

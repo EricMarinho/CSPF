@@ -11,6 +11,6 @@ public class CardsValues : MonoBehaviour
         public GameObject cardObject;
      }
      
-    [SerializeField] List<cardsStruct> cardsList = new List<cardsStruct>();
+    List<cardsStruct> cardsList = new List<cardsStruct>();
 
 }
