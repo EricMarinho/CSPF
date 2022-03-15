@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SecondaryDialogueBox : MonoBehaviour
+public class Stage1Tutorial : MonoBehaviour
 {
 
     public Animator animator;
