@@ -11,13 +11,9 @@ public class DialogueScript : MonoBehaviour
     public Animator personagemAnimator;
     public Text nameText;
     public Text dialogueText;
-
     public Dialogue dialogue;
-
     private Queue<string> sentences;
     
-
-    // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
@@ -25,47 +21,33 @@ public class DialogueScript : MonoBehaviour
     }
 
     private void Update() {
-
         if (Input.anyKeyDown){
             DisplayNextSentence();
-        }    
-
+        }
     }
 
     public void StartDialogue(Dialogue dialogue){
-
         nameText.text = dialogue.name;
-
         sentences.Clear();
-
         foreach (string sentence in dialogue.sentences){
-
             sentences.Enqueue(sentence);
-
         }
-
         DisplayNextSentence();
-
     }
+    
     public void DisplayNextSentence(){
-
         if(sentences.Count==0){
             EndDialogue();
             return;
         }
-
         string sentence = sentences.Dequeue();
         dialogueText.text = sentence;         
-
     }
 
     public void EndDialogue(){
-
         animator.SetBool("isEnd", true);
         personagemAnimator.SetBool("isEnd", true);
         cardManager.SetActive(true);
         settingsButton.SetActive(true);
-        
-        
     }
 }

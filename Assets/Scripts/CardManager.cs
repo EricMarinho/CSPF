@@ -9,9 +9,12 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
     public int idCarta;
     float valorCarta = 0;
     SuccessTest teste;
+    DrawManager draw;
+    Stage1Tutorial nextSentence;
 
-    private void Start() {    
-     
+    private void Start() {
+        nextSentence = FindObjectOfType<Stage1Tutorial>();
+        draw = FindObjectOfType<DrawManager>();
         teste = FindObjectOfType<SuccessTest>();
 
         switch(idCarta){
@@ -34,8 +37,19 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
     }    
 
     public void OnPointerClick(PointerEventData eventData){
-        Debug.Log(teste.Verify(valorCarta));
-        Destroy(gameObject);
+        if(teste.Verify(valorCarta) == false){
+            draw.Draw();
+            Destroy(gameObject);
+            //FALTA MENSAGEM DE ERRO
+        }
+        else{
+            Debug.Log("Porra é essa");
+            nextSentence.DisplayNextSentence();
+            draw.Draw();
+            Destroy(gameObject);
+            //TROCAR METODO DE DRAW PELO METODO DE TROCA DE BARALHO
+        }
+        
     }
 
 
