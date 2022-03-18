@@ -40,32 +40,28 @@ public class SuccessTest : MonoBehaviour
     }
 
     public bool Verify(float answer){
-        if((answerQueue.ToArray())[0].type == "less"){
-            if(answer < (answerQueue.ToArray())[0].answer){            
-                answerQueue.Dequeue();
-                return true;
-            }
-            else{
-                return false;
-            }
+
+        Answers playerAnswer = answerQueue.ToArray()[0];
+        bool passTest;
+
+        switch(playerAnswer.type){
+            case "less":
+                passTest = answer < playerAnswer.answer;
+            break;
+
+            case "more":
+                passTest = answer > playerAnswer.answer;
+            break;
+
+            default:
+                passTest = answer == playerAnswer.answer;
+            break;
+            
         }
-        else if((answerQueue.ToArray())[0].type == "more"){
-            if(answer > (answerQueue.ToArray())[0].answer){            
-                answerQueue.Dequeue();
-                return true;
-            }
-            else{
-                return false;
-            }
+
+        if(passTest){
+            answerQueue.Dequeue();
         }
-        else{
-            if(answer == (answerQueue.ToArray())[0].answer){            
-                answerQueue.Dequeue();
-                return true;
-            }
-            else{
-                return false;
-            }
-        }
+        return passTest;        
     }
 }

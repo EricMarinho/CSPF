@@ -230,6 +230,82 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameUI
       objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[0].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[1].cards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[2].cards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[0].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[2].cards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[0].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[1].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[1].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[1].cards.Array.data[2]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[2].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: deck.Array.data[2].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[0].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[2].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[2].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
 --- !u!1 &1970091866

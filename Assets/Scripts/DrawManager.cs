@@ -4,41 +4,23 @@ using UnityEngine;
 
 public class DrawManager : MonoBehaviour
 {
-
-    public GameObject carta1;
-    public GameObject carta2;
     public GameObject handManager;
 
-    //    public struct cardsStruct
-    //  {
-    //     public float calculo;
-    //     public string type;
-    //     public GameObject cardObject;
-    //  }
-    List<GameObject> cardsList = new List<GameObject>();
+    public Deck []decks;
+    public Queue<Deck> decksList = new Queue<Deck>();
     
-    // Start is called before the first frame update
     void Start()
     {
+        foreach(Deck deck in decks){
+            decksList.Enqueue(deck);
+        }
         StartCoroutine(setarMao());
-        cardsList.Add(carta1);
-        cardsList.Add(carta2);
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-        
-
     }
 
     public void Draw(){
-
-        GameObject carta = Instantiate(cardsList[Random.Range(0, cardsList.Count)], new Vector3(0,0,0),Quaternion.identity);
-        carta.transform.SetParent(handManager.transform, false);
-
+        GameObject randomCardInCurrentDeck = decksList.ToArray()[0].cards[Random.Range(0, decksList.ToArray()[0].cards.Length)];
+        GameObject cardInstance = Instantiate(randomCardInCurrentDeck, new Vector3(0,0,0),Quaternion.identity);
+        cardInstance.transform.SetParent(handManager.transform, false);
     }
 
     IEnumerator setarMao(){
@@ -46,6 +28,10 @@ public class DrawManager : MonoBehaviour
             yield return new WaitForSeconds(1);
             Draw();
         }
+    }
+
+    public void NextDeck(){
+        decksList.Dequeue();
     }
 
 }

@@ -37,19 +37,17 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
     }    
 
     public void OnPointerClick(PointerEventData eventData){
-        if(teste.Verify(valorCarta) == false){
+        if(!teste.Verify(valorCarta)){
             draw.Draw();
-            Destroy(gameObject);
             //FALTA MENSAGEM DE ERRO
         }
-        else{
-            Debug.Log("Porra é essa");
+        else if(draw.decksList.ToArray().Length <= 1){
             nextSentence.DisplayNextSentence();
             draw.Draw();
-            Destroy(gameObject);
-            //TROCAR METODO DE DRAW PELO METODO DE TROCA DE BARALHO
+            draw.NextDeck();
+            //TROCAR METODO DE DRAW PELO METODO SETAR MAO
         }
-        
+        Destroy(gameObject);
     }
 
 
