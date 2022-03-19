@@ -12,25 +12,21 @@ public class Stage1Tutorial : MonoBehaviour
     public Dialogue dialogue;
     public Queue<string> sentences;
     public GameObject dialogueBox;
-    bool isEnding = false;
+    string sentence;
+    public GameObject canvas;
 
-
-    // Start is called before the first frame update
-    void Start()
+  void Start()
     {
         dialogueBox.SetActive(true);
         sentences = new Queue<string>();
         StartDialogue(dialogue);
     }
 
-    void Update(){
-        if(isEnding == true){
-            if(Input.anyKeyDown){
-                EndDialogue();
-            }
-        }
-    }
-
+     IEnumerator ErrorMessage(){
+         dialogueText.text = "Você errou, tente novamente.";
+         yield return new WaitForSeconds(1.5f);
+         dialogueText.text = sentence;
+     }
     public void StartDialogue(Dialogue dialogue){
         nameText.text = dialogue.name;
         sentences.Clear();
@@ -43,16 +39,13 @@ public class Stage1Tutorial : MonoBehaviour
     }
 
     public void DisplayNextSentence(){
-        
-        if(sentences.Count==1){
-            isEnding = true;
-        }
-
-        string sentence = sentences.Dequeue();
+        sentence = sentences.Dequeue();
         dialogueText.text = sentence;
     }
 
-    public void EndDialogue(){
-        animator.SetBool("isOpen", false);
+    public void EndStage(){
+        dialogueBox.SetActive(false);
+        canvas.SetActive(true);
     }
+
 }

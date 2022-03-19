@@ -38,14 +38,16 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
     }    
 
     public void OnPointerClick(PointerEventData eventData){
-        Debug.Log(draw.decksList.ToArray().Length);
         if(!teste.Verify(valorCarta)){
             draw.ErrorDraw();
-            //FALTA MENSAGEM DE ERRO
+            nextSentence.StartCoroutine("ErrorMessage");
         }
         else if(draw.decksList.ToArray().Length > 1){
             nextSentence.DisplayNextSentence();
             draw.NextDeck();
+        }
+        else{
+            nextSentence.EndStage();
         }
         Destroy(gameObject);
     }

@@ -13,6 +13,8 @@ public class DialogueScript : MonoBehaviour
     public Text dialogueText;
     public Dialogue dialogue;
     private Queue<string> sentences;
+    public GameObject alfredo;
+    public GameObject dialogueBox;
     
     void Start()
     {
@@ -24,6 +26,13 @@ public class DialogueScript : MonoBehaviour
         if (Input.anyKeyDown){
             DisplayNextSentence();
         }
+    }
+
+    IEnumerator DestroyAssets(){
+        yield return new WaitForSeconds(2);
+        Destroy(alfredo);
+        Destroy(dialogueBox);
+        Destroy(gameObject);
     }
 
     public void StartDialogue(Dialogue dialogue){
@@ -49,5 +58,6 @@ public class DialogueScript : MonoBehaviour
         personagemAnimator.SetBool("isEnd", true);
         cardManager.SetActive(true);
         settingsButton.SetActive(true);
+        StartCoroutine("DestroyAssets");
     }
 }
