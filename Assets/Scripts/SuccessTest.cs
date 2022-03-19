@@ -6,19 +6,6 @@ public class SuccessTest : MonoBehaviour
 {
     public Answers []answers;
 
-    // public struct AnswerVerification
-    //  {
-    //     public float answer;
-    //     public string type;
-    //     public AnswerVerification(float answer, string type){
-    //         this.answer = answer;
-    //         this.type = type;
-    //     }
-    //  }
-
-    // AnswerVerification answerStruct;
-    // [SerializeField] int idFase;
-
     public Queue<Answers> answerQueue;
 
     void Start(){
@@ -29,14 +16,6 @@ public class SuccessTest : MonoBehaviour
             answerQueue.Enqueue(answers);
         }
 
-        // if(idFase == 1){
-        //     answerStruct = new AnswerVerification(0f,"more");
-        //     answerQueue.Enqueue(new AnswerVerification(3f, "equal"));
-        //     answerQueue.Enqueue(new AnswerVerification(4f, "equal"));
-        // }
-        // else if(idFase == 2){
-        //     return;
-        // }
     }
 
     public bool Verify(float answer){
@@ -61,6 +40,27 @@ public class SuccessTest : MonoBehaviour
 
         if(passTest){
             answerQueue.Dequeue();
+        }
+        return passTest;        
+    }
+
+    public bool VerifySimple(float answer){
+        Answers playerAnswer = answerQueue.ToArray()[0];
+        bool passTest;
+
+        switch(playerAnswer.type){
+            case "less":
+                passTest = answer < playerAnswer.answer;
+            break;
+
+            case "more":
+                passTest = answer > playerAnswer.answer;
+            break;
+
+            default:
+                passTest = answer == playerAnswer.answer;
+            break;
+            
         }
         return passTest;        
     }

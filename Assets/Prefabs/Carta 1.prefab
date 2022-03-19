@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8728361428201719916}
   - component: {fileID: 2687738082079313293}
   m_Layer: 5
-  m_Name: Carta 1.3
+  m_Name: Carta 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,13 +31,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4758914076340080017}
+  - {fileID: 9216107137710666699}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -285}
+  m_AnchoredPosition: {x: 0, y: -360}
   m_SizeDelta: {x: 177, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2137091779751741249
@@ -92,8 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d2f228df5ac5ee429cf133e248e1b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idCarta: 2
---- !u!1 &5469871384871414439
+  idCarta: 1
+--- !u!1 &3477042737251735050
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,51 +101,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4758914076340080017}
-  - component: {fileID: 8117467549491561883}
-  - component: {fileID: 8781153723105509798}
-  - component: {fileID: 9086943640608134485}
+  - component: {fileID: 9216107137710666699}
+  - component: {fileID: 7793452919428382251}
+  - component: {fileID: 5363467127120043906}
+  - component: {fileID: 47905716528463444}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Carta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &4758914076340080017
+--- !u!224 &9216107137710666699
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5469871384871414439}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 3477042737251735050}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2137091779751741310}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 177, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &8117467549491561883
+--- !u!222 &7793452919428382251
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5469871384871414439}
+  m_GameObject: {fileID: 3477042737251735050}
   m_CullTransparentMesh: 1
---- !u!114 &8781153723105509798
+--- !u!114 &5363467127120043906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5469871384871414439}
+  m_GameObject: {fileID: 3477042737251735050}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6728795be9b8a5241aad41701c2f7875, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -169,19 +169,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!111 &9086943640608134485
+--- !u!111 &47905716528463444
 Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5469871384871414439}
+  m_GameObject: {fileID: 3477042737251735050}
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: fe4becdbbac187d4280fa818558e8e3b, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: fe4becdbbac187d4280fa818558e8e3b, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0

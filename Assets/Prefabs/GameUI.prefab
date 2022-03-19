@@ -298,6 +298,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf40281adcd09e4bbeff88815c19180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  answers:
+  - answer: 0
+    type: more
+  - answer: 3
+    type: equal
+  - answer: 4
+    type: equal
 --- !u!1 &7424461041246317940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,9 +2225,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb5c24176dcda1429b4561b1a013c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carta1: {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
-  carta2: {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
   handManager: {fileID: 8577030360625613375}
+  decks:
+  - cards:
+    - {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+  - cards:
+    - {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
+  - cards:
+    - {fileID: 2137091779751741309, guid: d81c5ba6da5a69f4fa562a1e0e6abf72, type: 3}
+    - {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
 --- !u!114 &2296343187012410623
 MonoBehaviour:
   m_ObjectHideFlags: 0

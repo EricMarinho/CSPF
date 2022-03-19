@@ -7,16 +7,17 @@ using UnityEngine.Events;
 public class CardManager : MonoBehaviour, IPointerClickHandler
 {
     public int idCarta;
-    float valorCarta = 0;
+    float valorCarta;
     SuccessTest teste;
     DrawManager draw;
     Stage1Tutorial nextSentence;
+    Animation anim;
 
-    private void Start() {
+    void Awake() {
         nextSentence = FindObjectOfType<Stage1Tutorial>();
         draw = FindObjectOfType<DrawManager>();
         teste = FindObjectOfType<SuccessTest>();
-
+        anim = GetComponent<Animation>();
         switch(idCarta){
             case 1:
                 valorCarta = 4f;
@@ -37,18 +38,24 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
     }    
 
     public void OnPointerClick(PointerEventData eventData){
+        Debug.Log(draw.decksList.ToArray().Length);
         if(!teste.Verify(valorCarta)){
-            draw.Draw();
+            draw.ErrorDraw();
             //FALTA MENSAGEM DE ERRO
         }
-        else if(draw.decksList.ToArray().Length <= 1){
+        else if(draw.decksList.ToArray().Length > 1){
             nextSentence.DisplayNextSentence();
-            draw.Draw();
             draw.NextDeck();
-            //TROCAR METODO DE DRAW PELO METODO SETAR MAO
         }
         Destroy(gameObject);
     }
 
+    public bool verifyQuestion(){
+        return teste.VerifySimple(valorCarta);
+    }
 
+    public void cardAppear(){
+        anim = gameObject.GetComponentInChildren<Animation>();
+        anim.Play("CartaEntrando");
+    }
 }
