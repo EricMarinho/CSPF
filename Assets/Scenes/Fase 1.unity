@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: "Agora escolha uma carta que possua um n\xFAmero menor que 5!"
+      objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -174,10 +182,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].type
+      value: less
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Name
       value: GameUI
       objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: cd19e085acba59a4aa42704e811ece98, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: e76f4aeeb4aa4964c82c12509615151b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
 --- !u!1 &1970091866

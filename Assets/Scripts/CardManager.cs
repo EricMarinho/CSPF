@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour, IPointerClickHandler
 {
@@ -12,8 +13,10 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
     DrawManager draw;
     Stage1Tutorial nextSentence;
     Animation anim;
+    Text valueText;
 
     void Awake() {
+        valueText = gameObject.GetComponentInChildren<Text>();
         nextSentence = FindObjectOfType<Stage1Tutorial>();
         draw = FindObjectOfType<DrawManager>();
         teste = FindObjectOfType<SuccessTest>();
@@ -30,6 +33,10 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 break;
             case 4:
                 valorCarta = 6f;
+                break;
+            case 5:
+                valorCarta = (int) Random.Range(0f, 10f);
+                valueText.text = valorCarta.ToString();
                 break;
             default:
                 Debug.Log("Carta Inválida");
