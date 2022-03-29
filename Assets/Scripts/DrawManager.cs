@@ -15,12 +15,14 @@ public class DrawManager : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animation>();
         foreach(Deck deck in decks){
+            // Coloca na fila os desafios daquela fase
             decksList.Enqueue(deck);
         }
         comprarMao();
     }
 
     public CardManager Draw(){
+        // Escolhe aleatoriamente uma das cartas do deck atual e a cria
         GameObject randomCardInCurrentDeck = decksList.ToArray()[0].cards[Random.Range(0, decksList.ToArray()[0].cards.Length)];
         GameObject cardInstance = Instantiate(randomCardInCurrentDeck, new Vector3(0,0,0),Quaternion.identity);
         cardInstance.transform.SetParent(handManager.transform, false);
@@ -28,12 +30,15 @@ public class DrawManager : MonoBehaviour
     }
 
     public void NextDeck(){
+        // Exclui a mão atual caso o jogador resolva o desafio e passa para o próximo
         decksList.Dequeue();
         excluirMao();
         comprarMao();
     }
 
     void comprarMao(){
+        // Cria cartas e verifica se tem alguma carta que resolva o desafio, caso tenha, as cartas aparecem na tela, caso contrário as cartas serão substituídas até ter
+        // uma mão onde pelo menos uma das cartas solucione o desafio
         bool isTrue = false;
         do{
             for(var i = 0; i < 4; i++){
@@ -57,6 +62,7 @@ public class DrawManager : MonoBehaviour
     }
 
     public void ErrorDraw(){
+        // Imprime uma nova carta caso o jogador escolha uma carta que não solucione o desafio
         CardManager cardPicked = Draw();
         cardPicked.cardAppear();
     }

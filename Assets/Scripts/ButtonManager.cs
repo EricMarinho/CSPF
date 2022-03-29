@@ -9,6 +9,8 @@ public class ButtonManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     public Animator animator;
 
+    // Ativa e desativa as animações do botão caso o mouse esteja em cima do botão
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         animator.SetBool("isSelected",true);

@@ -12,28 +12,30 @@ public class SuccessTest : MonoBehaviour
         answerQueue = new Queue<Answers>();
         answerQueue.Clear();
         
+        // Preenchendo a fila com as respostas dos desafios da fase
         foreach(Answers answers in answers){
             answerQueue.Enqueue(answers);
         }
 
     }
 
-    public bool Verify(float answer){
-
+    public bool Verify(float valorCarta){
+    // Função para verificar se a resposta do jogador satisfaz a questão, caso esteja certo o código passa para o próximo desafio
         Answers playerAnswer = answerQueue.ToArray()[0];
         bool passTest;
-
+    // Os desafios podem pedir um número igual, menor ou maior que o valor dado. Dependendo de qual o critério de acerto, o código analisará a resposta e retornará
+    // o resultado
         switch(playerAnswer.type){
             case "less":
-                passTest = answer < playerAnswer.answer;
+                passTest = valorCarta < playerAnswer.answer;
             break;
 
             case "more":
-                passTest = answer > playerAnswer.answer;
+                passTest = valorCarta > playerAnswer.answer;
             break;
 
             default:
-                passTest = answer == playerAnswer.answer;
+                passTest = valorCarta == playerAnswer.answer;
             break;
             
         }
@@ -44,21 +46,22 @@ public class SuccessTest : MonoBehaviour
         return passTest;        
     }
 
-    public bool VerifySimple(float answer){
+    public bool VerifySimple(float valorCarta){
+        // Função para verificar se a resposta do jogador satisfaz a questão, mas que caso acerte ele só retorna o resultado, sem passar para o próximo desafio
         Answers playerAnswer = answerQueue.ToArray()[0];
         bool passTest;
 
         switch(playerAnswer.type){
             case "less":
-                passTest = answer < playerAnswer.answer;
+                passTest = valorCarta < playerAnswer.answer;
             break;
 
             case "more":
-                passTest = answer > playerAnswer.answer;
+                passTest = valorCarta > playerAnswer.answer;
             break;
 
             default:
-                passTest = answer == playerAnswer.answer;
+                passTest = valorCarta == playerAnswer.answer;
             break;
             
         }

@@ -23,6 +23,7 @@ public class Stage1Tutorial : MonoBehaviour
     }
 
      IEnumerator ErrorMessage(){
+         // Mostra uma mensagem caso o jogador escolha uma carta que não satisfaça o desafio
          dialogueText.text = "Você errou, tente novamente.";
          yield return new WaitForSeconds(1.5f);
          dialogueText.text = sentence;
@@ -44,6 +45,7 @@ public class Stage1Tutorial : MonoBehaviour
     }
 
     public void EndStage(){
+        // Mostra a tela de fim de estágio
         dialogueBox.SetActive(false);
         canvas.SetActive(true);
     }
