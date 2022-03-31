@@ -14,6 +14,7 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
     Stage1Tutorial nextSentence;
     Animation anim;
     Text valueText;
+    int x, y ,z;
 
     void Awake() {
 
@@ -44,6 +45,57 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
             case 5:
                 valorCarta = (int) Random.Range(0f, 10f);
                 valueText.text = valorCarta.ToString();
+                break;
+            case 6:
+                x = Random.Range(0, 10);
+                y = Random.Range(0, 10);
+                valorCarta = x + y;
+                valueText.text = $"{x} + {y}";
+                break;
+            case 7:
+                x = Random.Range(0, 10);
+                y = Random.Range(0, 10);
+                z = Random.Range(3, 8);
+                valorCarta = x + y + z;
+                valueText.text = $"{x} + {y} + {z}";
+                break;
+            case 8:
+                x = Random.Range(5, 10);
+                y = Random.Range(1, 5);
+                valorCarta = x - y;
+                valueText.text = $"{x} - {y}";
+                break;
+            case 9:
+                x = Random.Range(5, 10);
+                y = Random.Range(1, 5);
+                z = Random.Range(0, 10);
+                valorCarta = x + z - y;
+                valueText.text = $"{x} + {z} - {y}";
+                break;
+            case 10:
+                y = Random.Range(0, 10);
+                valorCarta = 2 * y;
+                valueText.text = $"2 x {y}";
+                break;
+            case 11:
+                x = Random.Range(0, 10);
+                y = Random.Range(0, 10);
+                valorCarta = x * y;
+                valueText.text = $"{x} x {y}";
+                break;
+            case 12:
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 10);
+                z = Random.Range(0, 10);
+                valorCarta = x * y - z;
+                valueText.text = $"{x} x {y} - {z}";
+                break;
+            case 13:
+                x = Random.Range(1, 5);
+                y = Random.Range(1, 5);
+                z = Random.Range(0, 10);
+                valorCarta = x * y + z;
+                valueText.text = $"{x} x {y} + {z}";
                 break;
             default:
                 Debug.Log("Carta Inválida");
