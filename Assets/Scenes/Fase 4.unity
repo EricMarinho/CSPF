@@ -213,6 +213,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.name
+      value: Maria
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Escolha uma carta com o valor MAIOR QUE 7.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Escolha uma carta com o valor MENOR QUE 10.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Escolha uma carta com o valor MAIOR QUE 5.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Escolha uma carta com o valor MENOR QUE 7.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: Escolha uma carta com o valor MAIOR QUE 14.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.name
+      value: Maria
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "Eu n\xE3o sei o que falar, s\xF3 sei desafiar. AAAAAAAAAAAAAAA"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
+        jogar uma delas e puxar mais uma."
+      objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -257,9 +302,93 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].type
+      value: less
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].type
+      value: more
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].type
+      value: less
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[0].answer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].answer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].answer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].answer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Name
       value: GameUI
       objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[2].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[4].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[0].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: b688d5ba28f13d74284466c5f90316b7, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 068ea82fb28016642a97667a6eefb282, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[2].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 2a7de591c6d10114ea2f0e49b25c9394, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 068ea82fb28016642a97667a6eefb282, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 2a7de591c6d10114ea2f0e49b25c9394, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[4].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 302f7fb6c9e9d324eb678c92708c4eb0, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[4].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 2a7de591c6d10114ea2f0e49b25c9394, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}

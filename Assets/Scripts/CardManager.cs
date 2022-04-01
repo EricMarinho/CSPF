@@ -85,18 +85,48 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 break;
             case 12:
                 x = Random.Range(1, 10);
-                y = Random.Range(1, 10);
-                z = Random.Range(0, 10);
-                valorCarta = x * y - z;
-                valueText.text = $"{x} x {y} - {z}";
+                y = Random.Range(0, 10);
+                z = Random.Range(1, 10);
+                valorCarta = (y * z) - x;
+                valueText.text = $"{x} - {y} x {z}";
                 break;
             case 13:
                 x = Random.Range(1, 5);
                 y = Random.Range(1, 5);
-                z = Random.Range(0, 10);
-                valorCarta = x * y + z;
-                valueText.text = $"{x} x {y} + {z}";
+                z = Random.Range(1, 5);
+                valorCarta = (y * z) + z;
+                valueText.text = $"{x} + {y} x {z}";
                 break;
+            case 14:
+                x = Random.Range(5, 20);
+                y = Random.Range(1, 5);
+                valorCarta = x / y;
+                valueText.text = $"{x} ÷ {y}";
+                break;
+            case 15:
+                x = Random.Range(1, 10);
+                y = Random.Range(5, 20);
+                z = Random.Range(1, 5);
+                valorCarta = (y / z) + x;
+                valueText.text = $"{x} + {y} ÷ {z}";
+                break;
+            case 16:
+                x = Random.Range(1, 10);
+                y = Random.Range(5, 20);
+                z = Random.Range(1, 5);
+                valorCarta = x - (y / z);
+                valueText.text = $"{x} - {y} ÷ {z}";
+                break;
+            case 17:
+                x = Random.Range(5, 20);
+                y = Random.Range(1, 5);
+                z = Random.Range(1, 10);
+                valorCarta = x / y * z;
+                valueText.text = $"{x} ÷ {y} x {z}";
+                break;
+            case 18:
+                x = Random.Range(1, 10);
+                valorCarta = Math.Pow(x,2);
             default:
                 Debug.Log("Carta Inválida");
                 break;

@@ -33,4 +33,20 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(5);
     }
 
+    public void LoadStageFive(){
+        SceneManager.LoadScene(6);
+    }
+
+    public void LoadStageSix(){
+        SceneManager.LoadScene(7);
+    }
+
+    public void LoadStageSeven(){
+        SceneManager.LoadScene(8);
+    }
+
+    public void LoadStageEight(){
+        SceneManager.LoadScene(9);
+    }
+
 }

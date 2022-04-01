@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &175381708
+--- !u!1 &351875762
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,9 +131,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 175381711}
-  - component: {fileID: 175381710}
-  - component: {fileID: 175381709}
+  - component: {fileID: 351875765}
+  - component: {fileID: 351875764}
+  - component: {fileID: 351875763}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -141,21 +141,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &175381709
+--- !u!81 &351875763
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175381708}
+  m_GameObject: {fileID: 351875762}
   m_Enabled: 1
---- !u!20 &175381710
+--- !u!20 &351875764
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175381708}
+  m_GameObject: {fileID: 351875762}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -192,13 +192,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &175381711
+--- !u!4 &351875765
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175381708}
+  m_GameObject: {fileID: 351875762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -206,7 +206,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &243022160
+--- !u!1001 &1018841612
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -215,34 +215,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.name
-      value: Bruna
+      value: Maria
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Duvido voc\xEA escolher uma carta com o valor MENOR QUE 10."
+      value: Escolha uma carta com o valor MAIOR QUE 7.
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "N\xE3o acredito! Mas voc\xEA n\xE3o vai conseguir escolher um valor
-        MAIOR QUE 12!"
+      value: "Agora escolha uma carta que possua um n\xFAmero maior que 5!"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "Voc\xEA se acha esperto, n\xE3o \xE9 mesmo? Ent\xE3o escolha uma carta
-        com o valor IGUAL A 5."
+      value: "Agora escolha uma carta que possua um n\xFAmero maior que 5!"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "Eu desisto, se acertar essa a vit\xF3ria \xE9 sua. Escolha uma carta
-        com o valor IGUAL A 10."
+      value: "Agora escolha uma carta que possua um n\xFAmero maior que 5!"
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.name
-      value: Bruna
+      value: Maria
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
@@ -250,16 +247,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Eu te desafio!
+      value: "Eu n\xE3o sei o que falar, s\xF3 sei desafiar. AAAAAAAAAAAAAAA"
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: Se prepare
-      objectReference: {fileID: 0}
-    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
-      value: "Os alunos dessa escola s\xE3o avaliados atrav\xE9s de desafios feitos
-        com cartas."
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
+        jogar uma delas e puxar mais uma."
       objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
@@ -307,11 +300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: answers.Array.data[0].type
-      value: less
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[1].type
@@ -319,27 +308,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[2].type
-      value: equal
+      value: more
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[3].type
-      value: equal
+      value: more
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[0].answer
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[1].answer
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[2].answer
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: answers.Array.data[3].answer
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Name
@@ -347,11 +332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: decks.Array.data[1].cards.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.data[2].cards.Array.size
@@ -360,26 +341,10 @@ PrefabInstance:
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.data[0].cards.Array.data[0]
       value: 
-      objectReference: {fileID: 2137091779751741309, guid: 0ee3baacc9738864fbbe3c95a2989c94, type: 3}
-    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: decks.Array.data[1].cards.Array.data[0]
-      value: 
-      objectReference: {fileID: 2137091779751741309, guid: 0ee3baacc9738864fbbe3c95a2989c94, type: 3}
-    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: decks.Array.data[1].cards.Array.data[1]
-      value: 
-      objectReference: {fileID: 2137091779751741309, guid: e60fe57fc29f3084b8db6e4ada5b3d49, type: 3}
+      objectReference: {fileID: 2137091779751741309, guid: b688d5ba28f13d74284466c5f90316b7, type: 3}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.data[2].cards.Array.data[0]
       value: 
-      objectReference: {fileID: 2137091779751741309, guid: a5f8bcb98e55021499dab3beab09a00f, type: 3}
-    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: decks.Array.data[2].cards.Array.data[1]
-      value: 
-      objectReference: {fileID: 2137091779751741309, guid: e60fe57fc29f3084b8db6e4ada5b3d49, type: 3}
-    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: decks.Array.data[3].cards.Array.data[0]
-      value: 
-      objectReference: {fileID: 2137091779751741309, guid: 1a5b268458bd16b4b9c116bf3e18bd75, type: 3}
+      objectReference: {fileID: 2137091779751741309, guid: cd19e085acba59a4aa42704e811ece98, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
