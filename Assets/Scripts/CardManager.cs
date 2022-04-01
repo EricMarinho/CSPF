@@ -126,7 +126,21 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 break;
             case 18:
                 x = Random.Range(1, 10);
-                valorCarta = Math.Pow(x,2);
+                valorCarta = Mathf.Pow(x,2);
+                valueText.text = $"{x}²";
+                break;
+            case 19:
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 10);
+                valorCarta = Mathf.Pow(x,2) + y;
+                valueText.text = $"{x}² + {y}";
+                break;
+            case 20:
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 10);
+                valorCarta = Mathf.Pow(x,2) - y;
+                valueText.text = $"{x}² - {y}";
+                break;
             default:
                 Debug.Log("Carta Inválida");
                 break;
