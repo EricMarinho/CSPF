@@ -41,12 +41,4 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(7);
     }
 
-    public void LoadStageSeven(){
-        SceneManager.LoadScene(8);
-    }
-
-    public void LoadStageEight(){
-        SceneManager.LoadScene(9);
-    }
-
 }

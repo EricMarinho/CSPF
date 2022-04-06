@@ -141,6 +141,23 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 valorCarta = Mathf.Pow(x,2) - y;
                 valueText.text = $"{x}² - {y}";
                 break;
+            case 21:
+                x = Random.Range(1, 10);
+                valorCarta = Mathf.Pow(x,3);
+                valueText.text = $"{x}³";
+                break;
+            case 22:
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 10);
+                valorCarta = Mathf.Pow(x,3) + y;
+                valueText.text = $"{x}³ + {y}";
+                break;
+            case 23:
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 10);
+                valorCarta = Mathf.Pow(x,3) - y;
+                valueText.text = $"{x}³ - {y}";
+                break;
             default:
                 Debug.Log("Carta Inválida");
                 break;

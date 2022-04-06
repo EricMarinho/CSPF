@@ -239,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.name
-      value: Maria
+      value: Jorginho
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
@@ -247,7 +247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Eu n\xE3o sei o que falar, s\xF3 sei desafiar. AAAAAAAAAAAAAAA"
+      value: Dialogo muito bom
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[5]

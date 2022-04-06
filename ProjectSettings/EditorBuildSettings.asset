@@ -29,10 +29,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase 6.unity
     guid: cbd2800088e271e4da053e00fb0e7bd6
-  - enabled: 1
-    path: Assets/Scenes/Fase 7.unity
-    guid: 2c2ec4e97e758e5449cf779b84fef9ad
-  - enabled: 1
-    path: Assets/Scenes/Fase 8.unity
-    guid: 6ad492fd9c1341a49805971996a8f3e2
   m_configObjects: {}
