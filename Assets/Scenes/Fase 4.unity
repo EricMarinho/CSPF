@@ -223,23 +223,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Escolha uma carta com o valor MAIOR QUE 7.
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Escolha uma carta com o valor MENOR QUE 10.
+      value: Escolha uma carta com o valor MENOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Escolha uma carta com o valor MAIOR QUE 5.
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: Escolha uma carta com o valor MENOR QUE 7.
+      value: Escolha uma carta com o valor MENOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: Escolha uma carta com o valor MAIOR QUE 14.
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.name

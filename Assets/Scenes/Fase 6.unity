@@ -219,23 +219,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Escolha uma carta com o valor MAIOR QUE 7.
+      value: Escolha uma carta com o valor IGUAL A
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Agora escolha uma carta que possua um n\xFAmero maior que 5!"
+      value: Escolha uma carta com o valor IGUAL A
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "Agora escolha uma carta que possua um n\xFAmero maior que 5!"
+      value: Escolha uma carta com o valor IGUAL A
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "Agora escolha uma carta que possua um n\xFAmero maior que 5!"
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: Escolha uma carta com o valor IGUAL A 7.
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.name
@@ -300,19 +316,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.size
-      value: 1
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[0].type
+      value: equal
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[1].type
-      value: more
+      value: equal
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[2].type
-      value: more
+      value: equal
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[3].type
-      value: more
+      value: equal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].type
+      value: equal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[5].type
+      value: equal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[6].type
+      value: equal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[7].type
+      value: equal
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[0].answer
@@ -320,11 +356,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[1].answer
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[2].answer
-      value: 5
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].answer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[5].answer
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[6].answer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[7].answer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Name
@@ -332,19 +388,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.data[2].cards.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[5].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[6].cards.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[7].cards.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.data[0].cards.Array.data[0]
       value: 
-      objectReference: {fileID: 2137091779751741309, guid: b688d5ba28f13d74284466c5f90316b7, type: 3}
+      objectReference: {fileID: 2137091779751741309, guid: eb74c8628fc1d004bb11061c76eb2ad7, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 7af6b84a433a81d49a89bf10b6dc9729, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[1].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 7af6b84a433a81d49a89bf10b6dc9729, type: 3}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.data[2].cards.Array.data[0]
       value: 
-      objectReference: {fileID: 2137091779751741309, guid: cd19e085acba59a4aa42704e811ece98, type: 3}
+      objectReference: {fileID: 2137091779751741309, guid: afa7857e24192114db3aad045d3c3b57, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[2].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d10e777890c933c428a792c71fa77b4e, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 9b96422ea1d0ff040a3ae98a508e7be1, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[3].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: d10e777890c933c428a792c71fa77b4e, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[4].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 3fab9fa471502a74094e7d4ea4b09c18, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[5].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: a1e7f93328ed00d41942c06b92a3bd8e, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[5].cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: a1e7f93328ed00d41942c06b92a3bd8e, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[6].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 38035b527253432479c55821ad1fe561, type: 3}
+    - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: decks.Array.data[7].cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 2137091779751741309, guid: 56fe7fe9a3b1d86488430957bdefccf5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}

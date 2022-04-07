@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Stage1Tutorial : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Stage1Tutorial : MonoBehaviour
     public GameObject dialogueBox;
     string sentence;
     public GameObject canvas;
+    SuccessTest successTestHandler;
 
   void Start()
     {
@@ -26,7 +28,12 @@ public class Stage1Tutorial : MonoBehaviour
          // Mostra uma mensagem caso o jogador escolha uma carta que não satisfaça o desafio
          dialogueText.text = "Você errou, tente novamente.";
          yield return new WaitForSeconds(1.5f);
-         dialogueText.text = sentence;
+         if(SceneManager.GetActiveScene().buildIndex != 2){         
+            dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+         }
+            else{
+                dialogueText.text = sentence;
+            }
      }
     public void StartDialogue(Dialogue dialogue){
         nameText.text = dialogue.name;
@@ -36,12 +43,18 @@ public class Stage1Tutorial : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
+        successTestHandler = FindObjectOfType<SuccessTest>();
         DisplayNextSentence();
     }
 
     public void DisplayNextSentence(){
         sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
+         if(SceneManager.GetActiveScene().buildIndex != 2){         
+            dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+         }
+         else{
+            dialogueText.text = sentence;
+         }
     }
 
     public void EndStage(){

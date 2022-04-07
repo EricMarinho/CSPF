@@ -158,6 +158,54 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 valorCarta = Mathf.Pow(x,3) - y;
                 valueText.text = $"{x}³ - {y}";
                 break;
+            case 24:
+                x = Random.Range(2, 9);
+                y = Random.Range(10, 20);
+                valorCarta = y - x;
+                valueText.text = $"{y} - √{Mathf.Pow(x,2)}";
+                break;
+            case 25:
+                x = Random.Range(2, 9);
+                y = Random.Range(1, 10);
+                valorCarta = y - x;
+                valueText.text = $"{y} + √{Mathf.Pow(x,2)}";
+                break;
+            case 26:
+                x = Random.Range(2, 9);
+                y = Random.Range(10, 20);
+                valorCarta = y - x;
+                valueText.text = $"{y} - ³√{Mathf.Pow(x,3)}";
+                break;
+            case 27:
+                x = Random.Range(2, 9);
+                y = Random.Range(1, 10);
+                valorCarta = y - x;
+                valueText.text = $"{y} + ³√{Mathf.Pow(x,3)}";
+                break;
+            case 28:
+                x = Random.Range(2, 9);
+                y = Random.Range(1, 9);
+                valorCarta = y * x;
+                valueText.text = $"{y} x √{Mathf.Pow(x,2)}";
+                break;
+            case 29:
+                x = Random.Range(2, 9);
+                y = Random.Range(1, 9);
+                valorCarta = y * x;
+                valueText.text = $"{y} x ³√{Mathf.Pow(x,3)}";
+                break;
+            case 30:
+                x = Random.Range(1, 9);
+                y = Random.Range(1, 9);
+                valorCarta = x / y;
+                valueText.text = $"√{Mathf.Pow(x,2)} ÷ {y}";
+                break;
+            case 31:
+                x = Random.Range(1, 9);
+                y = Random.Range(1, 9);
+                valorCarta = x / y;
+                valueText.text = $"³√{Mathf.Pow(x,3)} ÷ {y}";
+                break;
             default:
                 Debug.Log("Carta Inválida");
                 break;
