@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Stage1Tutorial : MonoBehaviour
 {
 
+    int i = 0;
     public Animator animator;
     public Text nameText;
     public Text dialogueText;
@@ -53,7 +54,21 @@ public class Stage1Tutorial : MonoBehaviour
             dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
          }
          else{
-            dialogueText.text = sentence;
+             if (i == 0){
+                dialogueText.text = "Primeiro, selecione uma CARTA QUALQUER para usar.";
+                i++;
+             }
+             else if (i == 1){
+                dialogueText.text = $"Parabéns, você conseguiu. Agora escolha a carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
+                i++;
+             }
+             else if (i == 2){
+                dialogueText.text = $"Continue assim! Escolha uma carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
+                i++;
+             }
+             else{ 
+                dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+             }
          }
     }
 

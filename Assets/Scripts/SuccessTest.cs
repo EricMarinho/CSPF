@@ -14,6 +14,7 @@ public class SuccessTest : MonoBehaviour
         
         // Preenchendo a fila com as respostas dos desafios da fase
         foreach(Answers answers in answers){
+            answers.answer = answers.answers[Random.Range(0, answers.answers.Length)];
             answerQueue.Enqueue(answers);
         }
 

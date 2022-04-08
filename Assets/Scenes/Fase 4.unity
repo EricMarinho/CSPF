@@ -320,22 +320,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[0].answer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[1].answer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[2].answer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[3].answer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[4].answer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[0].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[0].answers.Array.data[0]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].answers.Array.data[0]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].answers.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answers.Array.data[0]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].answers.Array.data[0]
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}

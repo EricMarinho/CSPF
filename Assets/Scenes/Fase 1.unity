@@ -132,23 +132,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Primeiro, selecione uma CARTA QUALQUER para usar.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Parab\xE9ns, voc\xEA conseguiu. Agora escolha a carta com 3 LADOS."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Continue assim! Escolha uma carta com 4 LADOS.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "Agora escolha uma carta que possua um n\xFAmero MENOR QUE 5!"
+      value: "Agora escolha uma carta que possua um n\xFAmero MENOR QUE"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: "Agora escolha uma carta que possua um n\xFAmero MAIOR QUE 5!"
+      value: "Agora escolha uma carta que possua um n\xFAmero MAIOR QUE"
       objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
@@ -193,6 +193,66 @@ PrefabInstance:
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].answer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].answer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].answer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[0].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].answers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].answers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].answers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].answers.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[1].answers.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].answers.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[2].answers.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[3].answers.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: answers.Array.data[4].answers.Array.data[0]
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Name
