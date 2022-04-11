@@ -78,8 +78,8 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 valueText.text = $"2 x {y}";
                 break;
             case 11:
-                x = Random.Range(0, 10);
-                y = Random.Range(0, 10);
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 10);
                 valorCarta = x * y;
                 valueText.text = $"{x} x {y}";
                 break;
@@ -88,13 +88,13 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 y = Random.Range(0, 10);
                 z = Random.Range(1, 10);
                 valorCarta = (y * z) - x;
-                valueText.text = $"{x} - {y} x {z}";
+                valueText.text = $"{y} x {z} - {x}";
                 break;
             case 13:
                 x = Random.Range(1, 5);
                 y = Random.Range(1, 5);
                 z = Random.Range(1, 5);
-                valorCarta = (y * z) + z;
+                valorCarta = y * z + x;
                 valueText.text = $"{x} + {y} x {z}";
                 break;
             case 14:
@@ -144,7 +144,7 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
             case 21:
                 x = Random.Range(1, 10);
                 valorCarta = Mathf.Pow(x,3);
-                valueText.text = $"{x}³";
+                valueText.text = $"{x}³";   
                 break;
             case 22:
                 x = Random.Range(1, 10);
@@ -167,7 +167,7 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
             case 25:
                 x = Random.Range(2, 9);
                 y = Random.Range(1, 10);
-                valorCarta = y - x;
+                valorCarta = y + x;
                 valueText.text = $"{y} + √{Mathf.Pow(x,2)}";
                 break;
             case 26:
@@ -195,16 +195,22 @@ public class CardManager : MonoBehaviour, IPointerClickHandler
                 valueText.text = $"{y} x ³√{Mathf.Pow(x,3)}";
                 break;
             case 30:
-                x = Random.Range(1, 9);
-                y = Random.Range(1, 9);
-                valorCarta = x / y;
-                valueText.text = $"√{Mathf.Pow(x,2)} ÷ {y}";
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 20);
+                valorCarta = y / x;
+                valueText.text = $"{y} ÷ √{Mathf.Pow(x,2)}";
                 break;
             case 31:
-                x = Random.Range(1, 9);
-                y = Random.Range(1, 9);
-                valorCarta = x / y;
-                valueText.text = $"³√{Mathf.Pow(x,3)} ÷ {y}";
+                x = Random.Range(1, 10);
+                y = Random.Range(1, 20);
+                valorCarta = y / x;
+                valueText.text = $"{y} ÷ ³√{Mathf.Pow(x,3)}";
+                break;
+            case 32:
+                x = Random.Range(1, 10);
+                y = Random.Range(2, 5);
+                valorCarta = Mathf.Pow(x,2) * y;
+                valueText.text = $"{x}² x {y}";
                 break;
             default:
                 Debug.Log("Carta Inválida");

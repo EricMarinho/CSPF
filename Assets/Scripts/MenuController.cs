@@ -41,4 +41,8 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(7);
     }
 
+    public void Restart(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 }

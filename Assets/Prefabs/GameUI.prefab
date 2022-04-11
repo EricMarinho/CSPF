@@ -401,14 +401,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answers:
   - answer: 0
+    answers: []
     type: more
   - answer: 3
+    answers: []
     type: equal
   - answer: 4
+    answers: []
     type: equal
   - answer: 5
+    answers: []
     type: less
   - answer: 5
+    answers: []
     type: more
 --- !u!1 &6624861385866192438
 GameObject:

@@ -7,9 +7,12 @@ public class DrawManager : MonoBehaviour
     public GameObject handManager;
     CardManager cardManager;
     Animation anim;
+    int errorCount = 0;
 
     public Deck []decks;
     public Queue<Deck> decksList = new Queue<Deck>();
+    public GameObject defeatCanvas;
+    public GameObject mainCanvas;
     
     void Start()
     {
@@ -65,5 +68,11 @@ public class DrawManager : MonoBehaviour
         // Imprime uma nova carta caso o jogador escolha uma carta que não solucione o desafio
         CardManager cardPicked = Draw();
         cardPicked.cardAppear();
+        errorCount++;
+        if(errorCount == 3){
+            // Caso o jogador tenha errado 3 vezes, o jogo acaba
+            Destroy(mainCanvas);
+            defeatCanvas.SetActive(true);
+        }
     }
 }

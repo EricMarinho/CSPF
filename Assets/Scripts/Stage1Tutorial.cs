@@ -25,16 +25,20 @@ public class Stage1Tutorial : MonoBehaviour
         StartDialogue(dialogue);
     }
 
+    void Update(){
+        Debug.Log(i);
+    }
+
      IEnumerator ErrorMessage(){
          // Mostra uma mensagem caso o jogador escolha uma carta que não satisfaça o desafio
          dialogueText.text = "Você errou, tente novamente.";
          yield return new WaitForSeconds(1.5f);
          if(SceneManager.GetActiveScene().buildIndex != 2){         
             dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+        }
+         else{
+            stage1Function(i - 1);
          }
-            else{
-                dialogueText.text = sentence;
-            }
      }
     public void StartDialogue(Dialogue dialogue){
         nameText.text = dialogue.name;
@@ -54,21 +58,8 @@ public class Stage1Tutorial : MonoBehaviour
             dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
          }
          else{
-             if (i == 0){
-                dialogueText.text = "Primeiro, selecione uma CARTA QUALQUER para usar.";
-                i++;
-             }
-             else if (i == 1){
-                dialogueText.text = $"Parabéns, você conseguiu. Agora escolha a carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
-                i++;
-             }
-             else if (i == 2){
-                dialogueText.text = $"Continue assim! Escolha uma carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
-                i++;
-             }
-             else{ 
-                dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
-             }
+             stage1Function(i);
+             i++;
          }
     }
 
@@ -78,4 +69,18 @@ public class Stage1Tutorial : MonoBehaviour
         canvas.SetActive(true);
     }
 
+    void stage1Function(int x){
+        if (x == 0){
+                dialogueText.text = sentence;        
+             }
+        else if (x == 1){
+                dialogueText.text = $"Parabéns, você conseguiu. Agora escolha a carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
+        }
+        else if (x == 2){
+                dialogueText.text = $"Continue assim! Escolha uma carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
+        }
+        else{ 
+                dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+        }
+    }
 }
