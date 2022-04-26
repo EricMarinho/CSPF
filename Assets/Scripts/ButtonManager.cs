@@ -7,10 +7,12 @@ using UnityEngine.EventSystems;
 public class ButtonManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
-    public Animator animator;
+    Animator animator;
 
     // Ativa e desativa as animações do botão caso o mouse esteja em cima do botão
-
+    private void Start() {
+        animator = GetComponent<Animator>();    
+    }
     public void OnPointerEnter(PointerEventData eventData)
     {
         animator.SetBool("isSelected",true);

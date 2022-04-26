@@ -5,7 +5,5 @@ using UnityEngine;
 [System.Serializable]
 public class Deck
 {
-
     public GameObject []cards;
-
 }

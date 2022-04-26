@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DrawManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class DrawManager : MonoBehaviour
     public Queue<Deck> decksList = new Queue<Deck>();
     public GameObject defeatCanvas;
     public GameObject mainCanvas;
+    public Text errorText;
     
     void Start()
     {
@@ -69,6 +71,7 @@ public class DrawManager : MonoBehaviour
         CardManager cardPicked = Draw();
         cardPicked.cardAppear();
         errorCount++;
+        errorText.text = $"Tentativas Restantes: {3 - errorCount}";
         if(errorCount == 3){
             // Caso o jogador tenha errado 3 vezes, o jogo acaba
             Destroy(mainCanvas);

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueScript : MonoBehaviour
 {
+    public GameObject triesOject; 
     public GameObject settingsButton;
     public GameObject cardManager;
     public Animator animator;
@@ -65,6 +66,7 @@ public class DialogueScript : MonoBehaviour
         personagemAnimator.SetBool("isEnd", true);
         cardManager.SetActive(true);
         settingsButton.SetActive(true);
+        triesOject.SetActive(true);
         StartCoroutine("DestroyAssets");
     }
 }

@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public void StartGame(){
-        SceneManager.LoadScene(1);
-    }
 
     public void ExitGame(){
         Application.Quit();
@@ -18,27 +15,27 @@ public class MenuController : MonoBehaviour
     }
 
     public void LoadStageOne(){
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void LoadStageTwo(){
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
     }
 
     public void LoadStageThree(){
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(3);
     }
 
     public void LoadStageFour(){
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
 
     public void LoadStageFive(){
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(5);
     }
 
     public void LoadStageSix(){
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(6);
     }
 
     public void Restart(){
