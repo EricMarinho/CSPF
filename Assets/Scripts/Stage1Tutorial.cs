@@ -50,7 +50,7 @@ public class Stage1Tutorial : MonoBehaviour
 
     public void DisplayNextSentence(){
         sentence = sentences.Dequeue();
-         if(SceneManager.GetActiveScene().buildIndex != 2){         
+         if(SceneManager.GetActiveScene().buildIndex != 1){         
             dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
          }
          else{
