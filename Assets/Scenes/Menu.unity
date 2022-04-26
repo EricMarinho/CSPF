@@ -5490,6 +5490,7 @@ MonoBehaviour:
   resolutionDropDown: {fileID: 919240605}
   audioMixer: {fileID: 24100000, guid: 1dd2035cdd2249549a4aeca9dafb7347, type: 2}
   volumeSlider: {fileID: 1274896719}
+  qualityDropDown: {fileID: 1495077730}
 --- !u!1 &1479121975
 GameObject:
   m_ObjectHideFlags: 0

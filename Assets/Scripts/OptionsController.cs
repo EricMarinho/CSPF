@@ -11,6 +11,7 @@ public class OptionsController : MonoBehaviour
     Resolution[] resolutions;
     public AudioMixer audioMixer;
     public Slider volumeSlider;
+    public Dropdown qualityDropDown;
 
     private static readonly string volumePref = "volumePref";
 
@@ -32,14 +33,17 @@ public class OptionsController : MonoBehaviour
         resolutionDropDown.AddOptions(options);
         resolutionDropDown.value = currentResolutionIndex;
         resolutionDropDown.RefreshShownValue();
+        qualityDropDown.value = QualitySettings.GetQualityLevel();
         volumeSlider.value = PlayerPrefs.GetFloat("volumePref");
+
+        
 
     }
 
     public void setVolume(float volume){
         
         PlayerPrefs.SetFloat(volumePref, volume);
-        audioMixer.SetFloat("volume", PlayerPrefs.GetFloat(volumePref));
+        audioMixer.SetFloat("volume", PlayerPrefs.GetFloat("volumePref"));
         
     }
 
