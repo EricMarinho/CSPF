@@ -10,6 +10,11 @@ public class MenuController : MonoBehaviour
         Application.Quit();
     }
 
+    public void ResetProgress(){
+        PlayerPrefs.SetInt("StageCompleted", 0);
+        Restart();
+    }
+
     public void BackToMenu(){
         SceneManager.LoadScene(0);
     }

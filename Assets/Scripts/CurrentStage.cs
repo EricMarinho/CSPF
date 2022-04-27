@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class CurrentStage : MonoBehaviour
 {
-    public GameObject[] stages;
+    [SerializeField] int numeroEstagio;
     void Start() {
         
-        int stageCompleted = PlayerPrefs.GetInt("stageCompleted");
+        if(numeroEstagio > PlayerPrefs.GetInt("StageCompleted")){
+            this.gameObject.SetActive(false);
+        }
 
     }
 

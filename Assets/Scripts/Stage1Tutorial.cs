@@ -8,6 +8,7 @@ public class Stage1Tutorial : MonoBehaviour
 {
 
     int i = 0;
+    int buildIndex;
     public Animator animator;
     public Text nameText;
     public Text dialogueText;
@@ -20,6 +21,7 @@ public class Stage1Tutorial : MonoBehaviour
 
   void Start()
     {
+        buildIndex = SceneManager.GetActiveScene().buildIndex;
         dialogueBox.SetActive(true);
         sentences = new Queue<string>();
         StartDialogue(dialogue);
@@ -29,7 +31,7 @@ public class Stage1Tutorial : MonoBehaviour
          // Mostra uma mensagem caso o jogador escolha uma carta que não satisfaça o desafio
          dialogueText.text = "Você errou, tente novamente.";
          yield return new WaitForSeconds(1.5f);
-         if(SceneManager.GetActiveScene().buildIndex != 2){         
+         if(buildIndex != 2){         
             dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
         }
          else{
@@ -63,9 +65,9 @@ public class Stage1Tutorial : MonoBehaviour
         // Mostra a tela de fim de estágio
         dialogueBox.SetActive(false);
         canvas.SetActive(true);
-        if(SceneManager.GetActiveScene().buildIndex > PlayerPrefs.GetInt("StageCompleted")){
-            PlayerPrefs.SetInt("stageCompleted", SceneManager.GetActiveScene().buildIndex);
-        }    
+        if(buildIndex > PlayerPrefs.GetInt("StageCompleted")){
+            PlayerPrefs.SetInt("StageCompleted", buildIndex);
+        }
     }
 
     void stage1Function(int x){
