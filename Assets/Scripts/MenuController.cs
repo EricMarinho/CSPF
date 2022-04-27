@@ -14,6 +14,11 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void SelecaoEstagio(){
+        PlayerPrefs.SetInt("stage", 1);
+        BackToMenu();
+    }
+
     public void LoadStageOne(){
         SceneManager.LoadScene(1);
     }

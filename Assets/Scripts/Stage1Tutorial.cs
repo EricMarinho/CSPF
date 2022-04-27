@@ -63,6 +63,9 @@ public class Stage1Tutorial : MonoBehaviour
         // Mostra a tela de fim de estágio
         dialogueBox.SetActive(false);
         canvas.SetActive(true);
+        if(SceneManager.GetActiveScene().buildIndex > PlayerPrefs.GetInt("StageCompleted")){
+            PlayerPrefs.SetInt("stageCompleted", SceneManager.GetActiveScene().buildIndex);
+        }    
     }
 
     void stage1Function(int x){
