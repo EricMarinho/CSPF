@@ -226,6 +226,22 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[1]
       value: "Aceita um desafio? Juro que vou pegar leve com voc\xEA *rsrsr"
       objectReference: {fileID: 0}
+    - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -270,6 +286,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171670509963667920, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4557579577196262356, guid: 06cd04bbe1271ca43bfe32d66e50873e, type: 3}
+    - target: {fileID: 5171670509963667935, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6947145cef07bf540ac7bca5aa579ce2, type: 2}
     - target: {fileID: 7424461041541496557, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_IsActive
       value: 0
