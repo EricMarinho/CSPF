@@ -223,8 +223,12 @@ PrefabInstance:
       value: -534
       objectReference: {fileID: 0}
     - target: {fileID: 5641424075622824004, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015736
+      objectReference: {fileID: 0}
+    - target: {fileID: 5641424075622824004, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 194
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[1].answer

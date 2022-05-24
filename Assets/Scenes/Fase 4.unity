@@ -269,6 +269,10 @@ PrefabInstance:
       value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
         jogar uma delas e puxar mais uma."
       objectReference: {fileID: 0}
+    - target: {fileID: 2090479538854095133, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4
@@ -329,6 +333,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4367895504235330515, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: deae2814e763da845be123f21d57a6f8, type: 3}
     - target: {fileID: 5171670509963667920, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -337,6 +345,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c8c00f27fb80a2743b701db0aad081f3, type: 2}
+    - target: {fileID: 5637592766430241035, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -536.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 5637592766430241035, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 266.1133
+      objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.size
       value: 5
@@ -485,6 +501,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameUI
       objectReference: {fileID: 0}
+    - target: {fileID: 9037191282385507622, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Color.a
+      value: 0.70980394
+      objectReference: {fileID: 0}
+    - target: {fileID: 9037191282385507622, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: mainCanvas
       value: 
@@ -553,3 +577,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1426591912514310023, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
   m_PrefabInstance: {fileID: 1018841612}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1247613492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2090479538854095133, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+  m_PrefabInstance: {fileID: 1018841612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1247613495
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247613492}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a7a822ebe400c1b4ebcd3f3930d5fa38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

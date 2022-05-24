@@ -258,6 +258,18 @@ PrefabInstance:
       value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
         jogar uma delas e puxar mais uma."
       objectReference: {fileID: 0}
+    - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.17
+      objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -302,6 +314,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4367895504235330515, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c8843cc9dfcb7034188169ebc7717b88, type: 3}
+    - target: {fileID: 5171670509963667920, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Size.x
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171670509963667920, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Size.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171670509963667920, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3632309012844104867, guid: e7143c5b6020e024bbd57abf1fad8ae3, type: 3}
+    - target: {fileID: 5171670509963667935, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cfd960f89887d1b4492ecb9b2776abc1, type: 2}
+    - target: {fileID: 5171670510629112456, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 91c68462e067f5142b63805304db1166, type: 2}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.size
       value: 5

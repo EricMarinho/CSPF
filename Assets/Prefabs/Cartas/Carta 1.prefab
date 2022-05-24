@@ -79,7 +79,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a307d6b3298ee41b6d4a710e8996e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: -908920615339105893}
 --- !u!114 &2687738082079313293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

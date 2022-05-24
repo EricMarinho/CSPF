@@ -16,6 +16,7 @@ public class DialogueScript : MonoBehaviour
     private Queue<string> sentences;
     public GameObject alfredo;
     public GameObject dialogueBox;
+    public GameObject handSprite;
     
     void Start()
     {
@@ -67,6 +68,7 @@ public class DialogueScript : MonoBehaviour
         cardManager.SetActive(true);
         settingsButton.SetActive(true);
         triesOject.SetActive(true);
+        handSprite.SetActive(true);
         StartCoroutine("DestroyAssets");
     }
 }
