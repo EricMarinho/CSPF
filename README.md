@@ -30,7 +30,7 @@ You can get access to CSPF source code by using one of the following ways:
 - Clone the repository locally:
 
 ```bash
-git clone https://github.com/EricMarinho/CSPF.git
+git clone https://github.com/EricMarinho/CSPF-Educational-Math-CardGame.git
 ```
 
 Also you can also download the build version of CSPF using the following link:
