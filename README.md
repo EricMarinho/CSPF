@@ -4,11 +4,25 @@ CSPF, is an Educational Card Game.
 
 It's free and open source. :clap:
 
-| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
+| [:camera: Screenshots](#screenshots) | [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
 | --------------- | -------- |
 
 <p align="center">
   <img src="https://img.itch.zone/aW1nLzk4NzMwNTUucG5n/original/xcSV7B.png" />
+</p>
+
+## Screenshots
+
+<p align="center">
+  <img src="sreenshot1.png"/>
+</p>
+
+<p align="center">
+  <img src="sreenshot2.png"/>
+</p>
+
+<p align="center">
+  <img src="sreenshot3.png"/>
 </p>
 
 ## Getting Started
