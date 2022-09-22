@@ -13,7 +13,7 @@ It's free and open source. :clap:
 
 ## Getting Started
 
-Follow the below instructions to get started with Red Runner source code:
+Follow the below instructions to get started with CSPF source code:
 
 1. [Make sure you have all Requirements](#requirements)
 2. [Download Source Code](#download)
