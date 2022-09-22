@@ -5,7 +5,7 @@ CSPF, is an Educational Card Game.
 It's free and open source. :clap:
 
 | [:camera: Screenshots](#screenshots) | [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
-| --------------- | -------- |
+| --------------- | -------- |  -------- |
 
 <p align="center">
   <img src="https://img.itch.zone/aW1nLzk4NzMwNTUucG5n/original/xcSV7B.png" />
