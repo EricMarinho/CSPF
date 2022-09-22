@@ -1,5 +1,5 @@
 # Cartas São a Parte Fácil (CSPF)
-
+<div> 
 CSPF, is an Educational Card Game.
 
 It's free and open source. :clap:
@@ -10,7 +10,8 @@ It's free and open source. :clap:
 <p align="right">
   <img src="https://img.itch.zone/aW1nLzk4NzMwNTUucG5n/original/xcSV7B.png" />
 </p>
-
+<div>
+  
 ## Screenshots
 
 <p align="center">
