@@ -14,15 +14,15 @@ It's free and open source. :clap:
 ## Screenshots
 
 <p align="center">
-  <img src="sreenshot1.png"/>
+  <img src="screenshot3.png"/>
 </p>
 
 <p align="center">
-  <img src="sreenshot2.png"/>
+  <img src="screenshot3.png"/>
 </p>
 
 <p align="center">
-  <img src="sreenshot3.png"/>
+  <img src="screenshot3.png"/>
 </p>
 
 ## Getting Started
