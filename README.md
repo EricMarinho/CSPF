@@ -7,7 +7,7 @@ It's free and open source. :clap:
 | [:camera: Screenshots](#screenshots) | [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
 | --------------- | -------- |  -------- |
 
-<p align="center">
+<p align="right">
   <img src="https://img.itch.zone/aW1nLzk4NzMwNTUucG5n/original/xcSV7B.png" />
 </p>
 
