@@ -1,5 +1,5 @@
 # Cartas São a Parte Fácil (CSPF)
-<div> 
+<img align="right" src="https://img.itch.zone/aW1nLzk4NzMwNTUucG5n/original/xcSV7B.png" />
 CSPF, is an Educational Card Game.
 
 It's free and open source. :clap:
@@ -7,10 +7,6 @@ It's free and open source. :clap:
 | [:camera: Screenshots](#screenshots) | [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
 | --------------- | -------- |  -------- |
 
-<p align="right">
-  <img src="https://img.itch.zone/aW1nLzk4NzMwNTUucG5n/original/xcSV7B.png" />
-</p>
-<div>
   
 ## Screenshots
 
