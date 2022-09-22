@@ -26,7 +26,7 @@ Make sure you have the below requirements before starting:
 
 You can get access to CSPF source code by using one of the following ways:
 
-- [:sparkles: Download Source Code](https://github.com/EricMarinho/CSPF/archive/master.zip)
+- [:sparkles: Download Source Code](https://github.com/EricMarinho/CSPF-Educational-Math-CardGame/archive/master.zip)
 - Clone the repository locally:
 
 ```bash
