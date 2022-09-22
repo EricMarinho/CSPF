@@ -4,23 +4,8 @@ CSPF, is an Educational Card Game.
 
 It's free and open source. :clap:
 
-| [:camera: Screenshots](#screenshots) | [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) |
+| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) | [:camera: Screenshots](#screenshots) |
 | --------------- | -------- |  -------- |
-
-  
-## Screenshots
-
-<p align="center">
-  <img src="screenshot3.png"/>
-</p>
-
-<p align="center">
-  <img src="screenshot3.png"/>
-</p>
-
-<p align="center">
-  <img src="screenshot3.png"/>
-</p>
 
 ## Getting Started
 
@@ -51,6 +36,20 @@ git clone https://github.com/EricMarinho/CSPF.git
 Also you can also download the build version of CSPF using the following link:
 
 - [:star: Download from Itch.io](https://ilidam.itch.io/cspf)
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshot1.png"/>
+</p>
+
+<p align="center">
+  <img src="screenshot2.png"/>
+</p>
+
+<p align="center">
+  <img src="screenshot3.png"/>
+</p>
 
 ## Credits
 
