@@ -28,7 +28,7 @@ Make sure you have the below requirements before starting:
 
 ## Download
 
-You can get access to Red Runner source code by using one of the following ways:
+You can get access to CSPF source code by using one of the following ways:
 
 - [:sparkles: Download Source Code](https://github.com/EricMarinho/CSPF/archive/master.zip)
 - Clone the repository locally:
