@@ -33,9 +33,10 @@ You can get access to CSPF source code by using one of the following ways:
 git clone https://github.com/EricMarinho/CSPF.git
 ```
 
-Also you can also download the build version of CSPF using the following link:
+Also you can also play or download the build version of CSPF using one of the following link:
 
 - [:star: Download from Itch.io](https://ilidam.itch.io/cspf)
+- [:star: Download from Game Jolt](https://gamejolt.com/games/CSPF/752718)
 
 ## Screenshots
 
