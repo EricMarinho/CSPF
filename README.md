@@ -35,8 +35,8 @@ git clone https://github.com/EricMarinho/CSPF.git
 
 Also you can also play or download the build version of CSPF using one of the following link:
 
-- [:star: Download from Itch.io](https://ilidam.itch.io/cspf)
-- [:star: Download from Game Jolt](https://gamejolt.com/games/CSPF/752718)
+- [:star: Itch.io](https://ilidam.itch.io/cspf)
+- [:star: Game Jolt](https://gamejolt.com/games/CSPF/752718)
 
 ## Screenshots
 
