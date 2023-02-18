@@ -75,10 +75,10 @@ public class Stage1Tutorial : MonoBehaviour
                 dialogueText.text = sentence;        
              }
         else if (x == 1){
-                dialogueText.text = $"Parabéns, você conseguiu. Agora escolha a carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
+                dialogueText.text = $"Parabéns, você conseguiu. Agora escolha uma carta com o total de lados igual a {successTestHandler.answerQueue.ToArray()[0].answer}." ;
         }
         else if (x == 2){
-                dialogueText.text = $"Continue assim! Escolha uma carta com {successTestHandler.answerQueue.ToArray()[0].answer} LADOS." ;
+                dialogueText.text = $"Continue assim! Escolha uma carta com o total de lados igual a {successTestHandler.answerQueue.ToArray()[0].answer}." ;
         }
         else{ 
                 dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
