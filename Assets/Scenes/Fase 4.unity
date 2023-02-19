@@ -202,6 +202,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -219,28 +220,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Novato, escolha uma carta com o valor MAIOR QUE
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: Novice, choose a card with a value GREATER THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: I was just getting warmed up, now choose a card with a value LESS THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[2]
+      value: I was letting you win. Now it's for real! Choose the card with a value
+        GREATER THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[3]
+      value: Here I go again! Choose the card with the value LESS THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[4]
+      value: Here's my last challenge! Choose a card with a value GREATER THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: Novato, escolha uma carta com o valor MAIOR QUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
       value: "Eu s\xF3 estava me aquecendo, agora escolha uma carta com o valor MENOR
         QUE"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
+      propertyPath: dialogue.portuguesSentences.Array.data[2]
       value: "Eu estava deixando voc\xEA ganhar. Agora \xE9 pra valer! Escolha a
         carta com o valor MAIOR QUE"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
+      propertyPath: dialogue.portuguesSentences.Array.data[3]
       value: Aqui vou eu de novo! Escolha a carta com o valor MENOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
+      propertyPath: dialogue.portuguesSentences.Array.data[4]
       value: "Aqui vai o meu \xFAltimo desafio! Escolha uma carta com o valor MAIOR
         QUE"
       objectReference: {fileID: 0}
@@ -250,15 +300,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Ouvi falar que voc\xEA derrotou outros alunos."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Mas n\xE3o fique confiante. Voc\xEA n\xE3o me enfrentou ainda!"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
@@ -268,6 +318,30 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[5]
       value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
         jogar uma delas e puxar mais uma."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: "\rI heard that you defeated other students."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: But don't be confident. You haven't faced me yet!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: "Ouvi falar que voc\xEA derrotou outros alunos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
+      value: "Mas n\xE3o fique confiante. Voc\xEA n\xE3o me enfrentou ainda!"
       objectReference: {fileID: 0}
     - target: {fileID: 2090479538854095133, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_IsActive
@@ -584,7 +658,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!95 &1247613495
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -597,6 +671,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1

@@ -44,9 +44,22 @@ public class DialogueScript : MonoBehaviour
         // Mostra a primeira sentença do diálogo e preenche a fila de sentenças do diálogo
         nameText.text = dialogue.name;
         sentences.Clear();
-        foreach (string sentence in dialogue.sentences){
-            sentences.Enqueue(sentence);
+
+         if (PlayerPrefs.GetString("Language", "English") == "English")
+        {
+            foreach (string sentence in dialogue.englishSentences)
+            {
+                sentences.Enqueue(sentence);
+            }
         }
+        else
+        {
+            foreach (string sentence in dialogue.portuguesSentences)
+            {
+                sentences.Enqueue(sentence);
+            }
+        }
+
         DisplayNextSentence();
     }
     

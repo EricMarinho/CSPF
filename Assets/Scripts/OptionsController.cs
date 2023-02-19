@@ -12,6 +12,9 @@ public class OptionsController : MonoBehaviour
     public AudioMixer audioMixer;
     public Slider volumeSlider;
     public Dropdown qualityDropDown;
+    [SerializeField] private Dropdown languageDropdown;
+    private bool isLoading = true;
+    private string[] languages = new string[] { "English", "Portuguese" };
 
     private static readonly string volumePref = "volumePref";
 
@@ -35,9 +38,24 @@ public class OptionsController : MonoBehaviour
         resolutionDropDown.RefreshShownValue();
         qualityDropDown.value = QualitySettings.GetQualityLevel();
         volumeSlider.value = PlayerPrefs.GetFloat("volumePref");
+        if (PlayerPrefs.GetInt("LanguageIndex",0) == languageDropdown.value)
+        {
+            isLoading = false;
+        }
+        languageDropdown.value = PlayerPrefs.GetInt("LanguageIndex", 0);
+        languageDropdown.RefreshShownValue();
+    }
 
-        
-
+    public void setLanguage(int languageIndex)
+    {
+        PlayerPrefs.SetString("Language", languages[languageIndex]);
+        PlayerPrefs.SetInt("LanguageIndex", languageIndex);
+        if (isLoading)
+        {
+            isLoading = false;
+            return;
+        }
+        MenuController.instance.SelecaoOptions();
     }
 
     public void setVolume(float volume){
@@ -59,5 +77,4 @@ public class OptionsController : MonoBehaviour
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen, resolution.refreshRate);
     }
-
 }

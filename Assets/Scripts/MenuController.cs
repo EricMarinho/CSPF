@@ -6,6 +6,20 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
 
+    // Singleton
+    public static MenuController instance;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        } else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     public void ExitGame(){
         Application.Quit();
     }
@@ -21,6 +35,12 @@ public class MenuController : MonoBehaviour
 
     public void SelecaoEstagio(){
         PlayerPrefs.SetInt("stage", 1);
+        BackToMenu();
+    }
+
+    public void SelecaoOptions()
+    {
+        PlayerPrefs.SetInt("stage", 2);
         BackToMenu();
     }
 

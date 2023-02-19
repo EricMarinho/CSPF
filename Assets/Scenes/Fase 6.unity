@@ -202,6 +202,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -215,35 +216,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.name
-      value: Jorginho
+      value: Prof. Neide
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Escolha uma carta com o valor IGUAL A
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Escolha uma carta com o valor IGUAL A
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Escolha uma carta com o valor IGUAL A
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: Escolha uma carta com o valor IGUAL A
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: Escolha uma carta com o valor IGUAL A
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[5]
-      value: Escolha uma carta com o valor MENOR QUE
+      value: Escolha uma carta com o valor MAIOR QUE
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[6]
@@ -253,18 +254,81 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[7]
       value: Escolha uma carta com o valor IGUAL A 7.
       objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: Choose a card with the value EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: Choose a card with the value EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[2]
+      value: Choose a card with the value EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[3]
+      value: Choose a card with the value EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[4]
+      value: Choose a card with the value EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[5]
+      value: Choose a card with a value LESS THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[6]
+      value: Escolha uma carta com o valor MAIOR QUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[2]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[3]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[4]
+      value: Escolha uma carta com o valor IGUAL A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[5]
+      value: Escolha uma carta com o valor MENOR QUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[6]
+      value: Escolha uma carta com o valor MAIOR QUE
+      objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.name
-      value: Professora Neide
+      value: Prof. Neide
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Vejo que voc\xEA j\xE1 aprendeu bastante, chegou a hora de ver se voc\xEA
-        est\xE1 apto a passar de ano!"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
@@ -274,6 +338,32 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[5]
       value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
         jogar uma delas e puxar mais uma."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: I see you've already learned a lot, it's time to see if you're ready
+        to pass the year!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: Good luck.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: "Vejo que voc\xEA j\xE1 aprendeu bastante, chegou a hora de ver se voc\xEA
+        est\xE1 apto a passar de ano!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
+      value: Boa Sorte.
       objectReference: {fileID: 0}
     - target: {fileID: 654875320202136585, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
@@ -359,6 +449,26 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 68198c012898c1d458b0abee47d64c76, type: 2}
+    - target: {fileID: 6983127147283088802, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983127147283088802, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067297538177947255, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067297538177947255, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7067297538177947255, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7424461041811898467, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
       value: 0

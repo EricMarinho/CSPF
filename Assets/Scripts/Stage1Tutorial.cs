@@ -28,22 +28,37 @@ public class Stage1Tutorial : MonoBehaviour
     }
 
      IEnumerator ErrorMessage(){
-         // Mostra uma mensagem caso o jogador escolha uma carta que não satisfaça o desafio
-         dialogueText.text = "Você errou, tente novamente.";
-         yield return new WaitForSeconds(1.5f);
-         if(buildIndex != 2){         
-            dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+        // Mostra uma mensagem caso o jogador escolha uma carta que não satisfaça o desafio
+        if (PlayerPrefs.GetString("Language", "English") == "English")
+        {
+            dialogueText.text = "You missed it, try again.";
         }
-         else{
-            stage1Function(i - 1);
-         }
+        else
+        {
+            dialogueText.text = "Você errou, tente novamente.";
+        }
+         yield return new WaitForSeconds(1.5f);        
+         dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+
      }
+
     public void StartDialogue(Dialogue dialogue){
         nameText.text = dialogue.name;
         sentences.Clear();
-        
-        foreach (string sentence in dialogue.sentences){
-            sentences.Enqueue(sentence);
+
+        if (PlayerPrefs.GetString("Language", "English") == "English")
+        {
+            foreach (string sentence in dialogue.englishSentences)
+            {
+                sentences.Enqueue(sentence);
+            }
+        }
+        else
+        {
+            foreach (string sentence in dialogue.portuguesSentences)
+            {
+                sentences.Enqueue(sentence);
+            }
         }
 
         successTestHandler = FindObjectOfType<SuccessTest>();
@@ -52,13 +67,24 @@ public class Stage1Tutorial : MonoBehaviour
 
     public void DisplayNextSentence(){
         sentence = sentences.Dequeue();
-         if(SceneManager.GetActiveScene().buildIndex != 1){         
+        //if build index is 0 show only sentence
+        if (buildIndex != 1)
+        {
             dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
-         }
-         else{
-             stage1Function(i);
-             i++;
-         }
+        }
+        else
+        {
+            if(sentences.Count != 4)
+            {
+                dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
+            }
+            else
+            {
+                dialogueText.text = sentence;
+            }
+
+        }
+
     }
 
     public void EndStage(){
@@ -70,18 +96,4 @@ public class Stage1Tutorial : MonoBehaviour
         }
     }
 
-    void stage1Function(int x){
-        if (x == 0){
-                dialogueText.text = sentence;        
-             }
-        else if (x == 1){
-                dialogueText.text = $"Parabéns, você conseguiu. Agora escolha uma carta com o total de lados igual a {successTestHandler.answerQueue.ToArray()[0].answer}." ;
-        }
-        else if (x == 2){
-                dialogueText.text = $"Continue assim! Escolha uma carta com o total de lados igual a {successTestHandler.answerQueue.ToArray()[0].answer}." ;
-        }
-        else{ 
-                dialogueText.text = sentence + $" {successTestHandler.answerQueue.ToArray()[0].answer}.";
-        }
-    }
 }

@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
       value: Primeiro, selecione uma CARTA QUALQUER para usar.
       objectReference: {fileID: 0}
@@ -150,6 +154,194 @@ PrefabInstance:
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
       value: "Agora escolha uma carta que possua um n\xFAmero MAIOR QUE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: First, select ANY CARD to use.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: Congratulations, you made it. Now choose a card with total sides equal
+        to
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[2]
+      value: Keep it up! Choose a card with total sides equal to
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[3]
+      value: Now choose a card that has a number LESS THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[4]
+      value: Now choose a card that has a number GREATER THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: Primeiro, selecione uma CARTA QUALQUER para usar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
+      value: "Parab\xE9ns, voc\xEA conseguiu. Agora escolha uma carta com o total
+        de lados igual a "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[2]
+      value: Continue assim! Escolha uma carta com o total de lados igual a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[3]
+      value: "Agora escolha uma carta que possua um n\xFAmero MENOR QUE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[4]
+      value: "Agora escolha uma carta que possua um n\xFAmero MAIOR QUE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: Hello new student, my name is Alfredo. I am the representative of that
+        class and I was in charge of introducing you to the school.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: "\rHere we have a somewhat different grade evaluation system."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[2]
+      value: "\rThe students of this school are evaluated through challenges made
+        with cards."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[3]
+      value: Let me show you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[4]
+      value: First you will need a deck. You will have to complete the challenges
+        using it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[5]
+      value: "\rLet's practice. Start by drawing 4 cards and each turn you must play
+        one of them and draw another one."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[6]
+      value: "\rLet's practice. Start by drawing 4 cards and each turn you must play
+        one of them and draw another one."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: "Ol\xE1 novato, meu nome \xE9 Alfredo. Eu sou o representante dessa
+        turma e fiquei encarregado de te introduzir \xE0 escola."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
+      value: "Aqui n\xF3s temos um sistema de avalia\xE7\xE3o um tanto quanto diferente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[2]
+      value: "Os alunos dessa escola s\xE3o avaliados atrav\xE9s de desafios feitos
+        com cartas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[3]
+      value: Deixe eu te mostrar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[4]
+      value: "Primeiro voc\xEA vai precisar de um baralho. Voc\xEA ter\xE1 que cumprir
+        os desafios utilizando ele."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[5]
+      value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
+        jogar uma delas e puxar mais uma."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[6]
+      value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
+        jogar uma delas e puxar mais uma."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.9473126
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.78700006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.70668745
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.7073333
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2.1296387
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -3.515686
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.81591797
       objectReference: {fileID: 0}
     - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -201,6 +393,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4798737354484523074, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5055004368545934504, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}

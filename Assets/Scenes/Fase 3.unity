@@ -168,29 +168,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Vamos come\xE7ar simples... hihihi. Escolha uma carta IGUAL A"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: Let's start simple... hihihi. Choose a card EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: I said it would be easy, now just choose a card with the value EQUAL
+        TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[2]
+      value: Of course you would get it right, hahaha. This time I'm going to make
+        it a little harder. Choose a card with the value EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[3]
+      value: Is it if my challenges are that easy? Try this one, which card has the
+        value EQUAL TO
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[4]
+      value: HOW DID YOU ACCEPTED? That was my trump card! Anyway, this is my last
+        challenge, choose the card with a value GREATER THAN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: "Vamos come\xE7ar simples... hihihi. Escolha uma carta IGUAL A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
       value: "Eu disse que seria f\xE1cil, agora \xE9 s\xF3 escolher uma carta com
         o valor IGUAL A"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
+      propertyPath: dialogue.portuguesSentences.Array.data[2]
       value: "Claro que voc\xEA iria acertar, hahaha. Dessa vez eu vou dificultar
         um pouco. Escolha uma carta com o valor IGUAL A"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[3]
+      propertyPath: dialogue.portuguesSentences.Array.data[3]
       value: "Ser\xE1 se meus desafios s\xE3o f\xE1ceis assim? Tente essa, qual carta
         tem o valor IGUAL A"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-      propertyPath: dialogue.sentences.Array.data[4]
+      propertyPath: dialogue.portuguesSentences.Array.data[4]
       value: "COMO VOC\xCA ACERTOU? Aquele era meu trunfo! Que seja, esse \xE9 meu
         \xFAltimo desafio, escolha a carta com o valor MAIOR QUE"
       objectReference: {fileID: 0}
@@ -216,14 +268,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Ah, voc\xEA \xE9 aquele novato, certo?"
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[0]
+      value: Oh, you're that new student, right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.englishSentences.Array.data[1]
+      value: Do you accept a challenge? I swear I'll go easy on you *hihihi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[0]
+      value: "Ah, voc\xEA \xE9 aquele novato, certo?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673965637, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: dialogue.portuguesSentences.Array.data[1]
       value: "Aceita um desafio? Juro que vou pegar leve com voc\xEA *rsrsr"
       objectReference: {fileID: 0}
     - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
@@ -613,6 +689,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

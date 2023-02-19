@@ -502,6 +502,7 @@ GameObject:
   - component: {fileID: 7799392635132870323}
   - component: {fileID: 7902919216362838053}
   - component: {fileID: 7440317279221033624}
+  - component: {fileID: 8059522862647659340}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -571,6 +572,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Voltar ao Menu
+--- !u!114 &8059522862647659340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614670222147680997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbc1f439556d244e80f11d82bf9e565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Return to Menu
+  portugueseText: Voltar ao Menu
 --- !u!1 &667050178305642566
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +597,7 @@ GameObject:
   - component: {fileID: 5641424075622824004}
   - component: {fileID: 2425011388068560272}
   - component: {fileID: 5055004368545934504}
+  - component: {fileID: 6932913762940541744}
   m_Layer: 5
   m_Name: Tentativas
   m_TagString: Untagged
@@ -651,6 +667,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Tentativas Restantes: 3'
+--- !u!114 &6932913762940541744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667050178305642566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbc1f439556d244e80f11d82bf9e565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: 'Tries Left: 3'
+  portugueseText: 'Tentativas Restantes: 3'
 --- !u!1 &721612623110141360
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +807,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: 1dd2035cdd2249549a4aeca9dafb7347, type: 2}
   volumeSlider: {fileID: 4702823333883095300}
   qualityDropDown: {fileID: 7266684663134243089}
+  languageDropdown: {fileID: 0}
 --- !u!1 &875281486139494837
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,6 +921,7 @@ GameObject:
   - component: {fileID: 7404420457592783970}
   - component: {fileID: 6126099310139216016}
   - component: {fileID: 2269031290014300022}
+  - component: {fileID: 8638488354161275956}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1014,6 +1046,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8638488354161275956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877042012346627850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a681226ce2890247a87b09f6cecf680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Graphics
+  portugueseText: "Gr\xE1ficos"
 --- !u!1 &1064324972679090194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,8 +1312,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426591912514310023}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10.600204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1279,7 +1325,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.32641602, y: 0.16320801}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!223 &6854058245844389306
@@ -1992,6 +2038,7 @@ GameObject:
   - component: {fileID: 2450337239447600838}
   - component: {fileID: 1847019481511668082}
   - component: {fileID: 1213370874893522931}
+  - component: {fileID: 607277091816961387}
   m_Layer: 5
   m_Name: "O\xE7\xF5esText (TMP)"
   m_TagString: Untagged
@@ -2132,6 +2179,20 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &607277091816961387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2403807853003683621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a681226ce2890247a87b09f6cecf680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Options
+  portugueseText: "Op\xE7\xF5es"
 --- !u!1 &2425367170447082534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,6 +2264,7 @@ GameObject:
   - component: {fileID: 7438139476355141532}
   - component: {fileID: 2200030497451317145}
   - component: {fileID: 7794896458331927217}
+  - component: {fileID: 1809413187934460411}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2327,6 +2389,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1809413187934460411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2507447572971509121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a681226ce2890247a87b09f6cecf680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Return to menu
+  portugueseText: Voltar para o menu
 --- !u!1 &2558130920251042000
 GameObject:
   m_ObjectHideFlags: 0
@@ -2842,10 +2918,10 @@ RectTransform:
   m_Father: {fileID: 7641829425923914139}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1720, y: -26}
-  m_SizeDelta: {x: 168.7691, y: 168.7691}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 200, y: -26}
+  m_SizeDelta: {x: 168.76904, y: 168.7691}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &5428935677544329500
 CanvasRenderer:
@@ -3409,10 +3485,10 @@ RectTransform:
   m_Father: {fileID: 3128636552863968268}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 628, y: 266.18408}
-  m_SizeDelta: {x: -1455.8704, y: -997.5157}
+  m_AnchorMin: {x: 0.7064375, y: 0.70577776}
+  m_AnchorMax: {x: 0.9484376, y: 0.78700006}
+  m_AnchoredPosition: {x: 0, y: 0.18408203}
+  m_SizeDelta: {x: -1.8703613, y: -5.515686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &382641466386856505
 CanvasRenderer:
@@ -3479,6 +3555,7 @@ GameObject:
   - component: {fileID: 8359843185541897830}
   - component: {fileID: 1125979933539539022}
   - component: {fileID: 9191293273165937649}
+  - component: {fileID: 615185676188421666}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -3603,6 +3680,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &615185676188421666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4971687617000737649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a681226ce2890247a87b09f6cecf680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: RESOLUTIONS
+  portugueseText: "RESOLU\xC7\xD5ES"
 --- !u!1 &4982596831728290313
 GameObject:
   m_ObjectHideFlags: 0
@@ -4175,6 +4266,7 @@ GameObject:
   - component: {fileID: 515369594039807307}
   - component: {fileID: 505163043253139196}
   - component: {fileID: 3637513131747918874}
+  - component: {fileID: 1215876212736293679}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4299,6 +4391,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &1215876212736293679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638693471050518608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a681226ce2890247a87b09f6cecf680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Restart
+  portugueseText: Reiniciar
 --- !u!1 &5677346106909879533
 GameObject:
   m_ObjectHideFlags: 0
@@ -5083,6 +5189,7 @@ GameObject:
   - component: {fileID: 3646793328873352837}
   - component: {fileID: 5911574111064284468}
   - component: {fileID: 1961003853962658296}
+  - component: {fileID: 3286157300116408727}
   m_Layer: 5
   m_Name: VictoryText
   m_TagString: Untagged
@@ -5153,6 +5260,21 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Voc\xEA conseguiu! Clique em continuar para voltar para a sele\xE7\xE3o
     de est\xE1gio."
+--- !u!114 &3286157300116408727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6624861385866192438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbc1f439556d244e80f11d82bf9e565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: You did it! Click continue to return to stage selection.
+  portugueseText: "Voc\xEA conseguiu! Clique em continuar para voltar para a sele\xE7\xE3o
+    de est\xE1gio."
 --- !u!1 &6762776708262243830
 GameObject:
   m_ObjectHideFlags: 0
@@ -5164,6 +5286,7 @@ GameObject:
   - component: {fileID: 5382990391205787329}
   - component: {fileID: 2149219694436925373}
   - component: {fileID: 2646158028545257372}
+  - component: {fileID: 2872915350021265019}
   m_Layer: 5
   m_Name: Defeat Text
   m_TagString: Untagged
@@ -5233,6 +5356,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "N\xE3o foi dessa vez. Tente novamente."
+--- !u!114 &2872915350021265019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6762776708262243830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbc1f439556d244e80f11d82bf9e565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Better luck next time. Try again.
+  portugueseText: "N\xE3o foi dessa vez. Tente novamente."
 --- !u!1 &6822628346933814054
 GameObject:
   m_ObjectHideFlags: 0
@@ -5577,6 +5714,7 @@ GameObject:
   - component: {fileID: 4560525782148994913}
   - component: {fileID: 4662424982214845595}
   - component: {fileID: 8504621280257736960}
+  - component: {fileID: 4338749984700614208}
   m_Layer: 5
   m_Name: Options Text (TMP)
   m_TagString: Untagged
@@ -5701,6 +5839,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &4338749984700614208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7002098356025438220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a681226ce2890247a87b09f6cecf680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: FULLSCREEN
+  portugueseText: TELA CHEIA
 --- !u!1 &7311056439699735518
 GameObject:
   m_ObjectHideFlags: 0
@@ -5836,7 +5988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -82.25708, y: -202}
+  m_AnchoredPosition: {x: -82.257, y: -188}
   m_SizeDelta: {x: 1246.3859, y: 447.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7424461041246317942
@@ -6105,7 +6257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -685}
+  m_AnchoredPosition: {x: 0, y: -782}
   m_SizeDelta: {x: 1525.9739, y: 269.0839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7424461041752539787
@@ -6491,6 +6643,8 @@ MonoBehaviour:
       no seu desempenho."
     - "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1 jogar
       uma delas e puxar mais uma."
+    englishSentences: []
+    portuguesSentences: []
   alfredo: {fileID: 7424461041752539790}
   dialogueBox: {fileID: 0}
   handSprite: {fileID: 2090479538854095133}
@@ -6573,7 +6727,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Continuar
+  m_Text: Continue
 --- !u!1 &7424461043087775913
 GameObject:
   m_ObjectHideFlags: 0
@@ -6739,7 +6893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -7169,10 +7322,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continuar
+  m_text: Continue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7235,7 +7388,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &8577030360625613375
@@ -7358,6 +7511,8 @@ MonoBehaviour:
     - Continue assim! Escolha uma carta com 4 lados.
     - "Agora escolha uma carta que possua um n\xFAmero menor que 5!"
     - "Agora escolha uma carta que possua um n\xFAmero maior que 5!"
+    englishSentences: []
+    portuguesSentences: []
   dialogueBox: {fileID: 355151509}
   canvas: {fileID: 875281486139494837}
 --- !u!111 &106534413
