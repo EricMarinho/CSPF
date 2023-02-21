@@ -61,8 +61,8 @@ public class OptionsController : MonoBehaviour
     public void setVolume(float volume){
         
         PlayerPrefs.SetFloat(volumePref, volume);
-        audioMixer.SetFloat("volume", PlayerPrefs.GetFloat("volumePref"));
-        
+        audioMixer.SetFloat("volume", Mathf.Log10(PlayerPrefs.GetFloat("volumePref")) * 20);
+
     }
 
     public void setQuality(int qualityIndex){
