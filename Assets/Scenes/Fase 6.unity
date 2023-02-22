@@ -288,7 +288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.englishSentences.Array.data[6]
-      value: Escolha uma carta com o valor MAIOR QUE
+      value: Choose a card with a value GREATER THAN
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.portuguesSentences.Array.data[0]
@@ -837,7 +837,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
 --- !u!1 &1018841613 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1426591912514310023, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7874493036138440674, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
   m_PrefabInstance: {fileID: 1018841612}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1652562114 stripped

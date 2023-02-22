@@ -74,8 +74,8 @@ public class DrawManager : MonoBehaviour
         errorText.text = $"Tentativas Restantes: {3 - errorCount}";
         if(errorCount == 3){
             // Caso o jogador tenha errado 3 vezes, o jogo acaba
-            Destroy(mainCanvas);
             defeatCanvas.SetActive(true);
+            Destroy(mainCanvas);
         }
     }
 }

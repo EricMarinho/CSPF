@@ -12,14 +12,21 @@ public class OptionsController : MonoBehaviour
     public AudioMixer audioMixer;
     public Slider volumeSlider;
     public Dropdown qualityDropDown;
-    [SerializeField] private Dropdown languageDropdown;
-    private bool isLoading = true;
-    private string[] languages = new string[] { "English", "Portuguese" };
+    public Toggle fullScreenToggle;
 
     private static readonly string volumePref = "volumePref";
 
     private void Start() {
-        
+
+        if (PlayerPrefs.GetInt("fullScreen", 1) == 0)
+        {
+            fullScreenToggle.isOn = false;
+        }
+        else
+        {
+            fullScreenToggle.isOn = true;
+        }
+
         resolutions = Screen.resolutions;
         resolutionDropDown.ClearOptions();
         List<string> options = new List<string>();
@@ -37,25 +44,8 @@ public class OptionsController : MonoBehaviour
         resolutionDropDown.value = currentResolutionIndex;
         resolutionDropDown.RefreshShownValue();
         qualityDropDown.value = QualitySettings.GetQualityLevel();
-        volumeSlider.value = PlayerPrefs.GetFloat("volumePref");
-        if (PlayerPrefs.GetInt("LanguageIndex",0) == languageDropdown.value)
-        {
-            isLoading = false;
-        }
-        languageDropdown.value = PlayerPrefs.GetInt("LanguageIndex", 0);
-        languageDropdown.RefreshShownValue();
-    }
+        volumeSlider.value = PlayerPrefs.GetFloat("volumePref",1f);
 
-    public void setLanguage(int languageIndex)
-    {
-        PlayerPrefs.SetString("Language", languages[languageIndex]);
-        PlayerPrefs.SetInt("LanguageIndex", languageIndex);
-        if (isLoading)
-        {
-            isLoading = false;
-            return;
-        }
-        MenuController.instance.SelecaoOptions();
     }
 
     public void setVolume(float volume){
@@ -70,6 +60,10 @@ public class OptionsController : MonoBehaviour
     }
 
     public void setFullscreen(bool isFullscreen){
+        if (isFullscreen)
+            PlayerPrefs.SetInt("fullScreen", 1);
+        else
+            PlayerPrefs.SetInt("fullScreen", 0);
         Screen.fullScreen = isFullscreen;
     }
 

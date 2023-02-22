@@ -311,6 +311,14 @@ PrefabInstance:
       value: "Vamos praticar. Comece puxando 4 cartas e a cada turno voc\xEA dever\xE1
         jogar uma delas e puxar mais uma."
       objectReference: {fileID: 0}
+    - target: {fileID: 267898823995354468, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 267898823995354468, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.9473126
@@ -337,11 +345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1
+      value: 1.0646973
       objectReference: {fileID: 0}
     - target: {fileID: 2316005863959083306, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.81591797
+      value: -47
       objectReference: {fileID: 0}
     - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -487,6 +495,18 @@ PrefabInstance:
       propertyPath: answers.Array.data[4].answers.Array.data[0]
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8497407909963137195, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8497407909963137195, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8497407909963137195, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Name
       value: GameUI
@@ -498,13 +518,18 @@ PrefabInstance:
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: defeatCanvas
       value: 
-      objectReference: {fileID: 1489602400}
+      objectReference: {fileID: 926700135}
     m_RemovedComponents:
     - {fileID: 5936672839902687788, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
 --- !u!1 &926700134 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7424461043087775913, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+  m_PrefabInstance: {fileID: 926700133}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &926700135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7874493036138440674, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
   m_PrefabInstance: {fileID: 926700133}
   m_PrefabAsset: {fileID: 0}
 --- !u!212 &926700139
@@ -559,11 +584,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1489602400 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1426591912514310023, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-  m_PrefabInstance: {fileID: 926700133}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1970091866
 GameObject:
   m_ObjectHideFlags: 0

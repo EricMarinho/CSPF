@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &125706387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7874493036138440674, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+  m_PrefabInstance: {fileID: 615513464}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &615513464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,13 +219,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.englishSentences.Array.data[3]
-      value: Is it if my challenges are that easy? Try this one, which card has the
-        value EQUAL TO
+      value: Let's make things more interesting. Chose a card that has the value
+        EQUAL TO
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.englishSentences.Array.data[4]
-      value: HOW DID YOU ACCEPTED? That was my trump card! Anyway, this is my last
-        challenge, choose the card with a value GREATER THAN
+      value: How did you get it right? That was my trump card! Anyway, this is my
+        last challenge, choose the card with a value GREATER THAN
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.portuguesSentences.Array.data[0]
@@ -238,8 +243,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.portuguesSentences.Array.data[3]
-      value: "Ser\xE1 se meus desafios s\xE3o f\xE1ceis assim? Tente essa, qual carta
-        tem o valor IGUAL A"
+      value: "Ser\xE1 se meus desafios s\xE3o f\xE1ceis assim? Tente essa, escolha
+        uma carta com o valor IGUAL A"
       objectReference: {fileID: 0}
     - target: {fileID: 1108337786, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: dialogue.portuguesSentences.Array.data[4]
@@ -302,6 +307,30 @@ PrefabInstance:
       propertyPath: dialogue.portuguesSentences.Array.data[1]
       value: "Aceita um desafio? Juro que vou pegar leve com voc\xEA *rsrsr"
       objectReference: {fileID: 0}
+    - target: {fileID: 721612623110141360, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 875281486139494837, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426591912514310023, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568647021809581264, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568647021809581264, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568647021809581264, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4
@@ -317,6 +346,18 @@ PrefabInstance:
     - target: {fileID: 3628682827205437438, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924146208975185806, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924146208975185806, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3924146208975185806, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4246333620547202567, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_RootOrder
@@ -374,6 +415,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6947145cef07bf540ac7bca5aa579ce2, type: 2}
+    - target: {fileID: 6609554961821542251, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6609554961821542251, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7424461041541496557, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -436,7 +485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[3].answers.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8092952196107292649, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: answers.Array.data[4].answers.Array.size
@@ -542,6 +591,10 @@ PrefabInstance:
       propertyPath: answers.Array.data[4].answers.Array.data[0]
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8452837193917605313, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9004334282194915929, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: m_Name
       value: GameUI
@@ -553,7 +606,7 @@ PrefabInstance:
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: defeatCanvas
       value: 
-      objectReference: {fileID: 615513466}
+      objectReference: {fileID: 125706387}
     - target: {fileID: 9082710497927478687, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
       propertyPath: decks.Array.size
       value: 5
@@ -603,11 +656,6 @@ PrefabInstance:
 --- !u!1 &615513465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7424461043087775913, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
-  m_PrefabInstance: {fileID: 615513464}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &615513466 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1426591912514310023, guid: 4d281946ecd38d04b9f2383ceae999d6, type: 3}
   m_PrefabInstance: {fileID: 615513464}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &973394437
