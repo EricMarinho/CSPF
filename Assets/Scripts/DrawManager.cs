@@ -71,8 +71,15 @@ public class DrawManager : MonoBehaviour
         CardManager cardPicked = Draw();
         cardPicked.cardAppear();
         errorCount++;
-        errorText.text = $"Tentativas Restantes: {3 - errorCount}";
-        if(errorCount == 3){
+        if (PlayerPrefs.GetString("Language", "English") != "English")
+        {
+            errorText.text = $"Tentativas Restantes: {3 - errorCount}";
+        }
+        else
+        {
+            errorText.text = $"Remaining Attempts: {3 - errorCount}";
+        }
+        if (errorCount == 3){
             // Caso o jogador tenha errado 3 vezes, o jogo acaba
             defeatCanvas.SetActive(true);
             Destroy(mainCanvas);

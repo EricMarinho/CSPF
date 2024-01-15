@@ -504,7 +504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7392850590814867815
 Transform:
   m_ObjectHideFlags: 0
@@ -513,7 +513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378017057034340481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -361.696, y: -104, z: -458.44388}
+  m_LocalPosition: {x: 0, y: -104, z: -458.44388}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbbc1f439556d244e80f11d82bf9e565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  englishText: 'Tries Left: 3'
+  englishText: 'Remaining Attempts: 3'
   portugueseText: 'Tentativas Restantes: 3'
 --- !u!1 &681287879657130956
 GameObject:
@@ -864,7 +864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.146018}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 361.69604, y: 132}
+  m_AnchoredPosition: {x: 0, y: 132}
   m_SizeDelta: {x: 302.9893, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4525013713875676908
@@ -1462,7 +1462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &9002658326533560111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2296,7 +2296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1572146256194144500
 Transform:
   m_ObjectHideFlags: 0
@@ -6720,7 +6720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3369713108581932589
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8382,7 +8382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 369, y: 10}
+  m_AnchoredPosition: {x: 0, y: 10}
   m_SizeDelta: {x: 402.8496, y: 75.5343}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5812912956178564874
